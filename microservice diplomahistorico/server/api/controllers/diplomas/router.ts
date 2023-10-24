@@ -1,10 +1,6 @@
 import express from 'express';
 import controller from './diplomacontroller';
 
-class DiplomaController{
-    all(_:Request, res.Response): void{
-        res.json([]);
-    }
-}
-
-export default DiplomaController();
+export default express
+                .Router()
+                .get('/',controller.all);
