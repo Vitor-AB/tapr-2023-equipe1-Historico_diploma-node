@@ -17,6 +17,12 @@ paths:
         200:
           description: Return all
           content: {}
+  /diplomas/{id}:
+    get:
+      responses:
+        200:
+          description: Return all
+          content: {}
   /examples:
     get:
       tags:

@@ -3,4 +3,5 @@ import controller from './diplomacontroller';
 
 export default express
                 .Router()
-                .get('/',controller.all);
+                .get('/',controller.all)
+                .get('/id',controller.getById);

@@ -4,8 +4,8 @@
 
 '''
 az login -u [username@]
-az login --use-device-code
-az ad signed-in-user show
+<br>az login --use-device-code
+<br>az ad signed-in-user show
 '''
 
 '''
