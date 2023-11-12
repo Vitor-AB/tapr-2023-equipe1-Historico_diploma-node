@@ -15,10 +15,28 @@ paths:
     get:
       responses:
         200:
-          description: Return all
+          description: Returns all
+          content: {}
+    post:
+      responses:
+        200:
+          description: Insert New Item
           content: {}
   /diplomas/{id}:
     get:
+      responses:
+        200:
+          description: Return the example with the specified id
+          content: {}
+        404:
+          description: Example not found
+          content: {}
+    put:
+      responses:
+        200:
+          description: Return all
+          content: {}
+    delete:
       responses:
         200:
           description: Return all
