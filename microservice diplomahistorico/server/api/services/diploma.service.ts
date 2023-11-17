@@ -7,20 +7,14 @@ class DiplomaService {
         cosmosdb.container("diplomahistorico");
 
     async all(): Promise<DiplomaHistorico[]>{
-        try{
-            const {resources: listaHistorico}
-                = await this.container.items.readAll<DiplomaHistorico>().fetchAll();
+        const {resources: listaHistorico}
+            = await this.container.items.readAll<DiplomaHistorico>().fetchAll();
 
-            return Promise.resolve(listaHistorico);
-        }catch(err){
-            return err;
-        }
-        
-    
+        return Promise.resolve(listaHistorico);
     }
     async getById(id:string):Promise<DiplomaHistorico>{
         const querySpec: SqlQuerySpec = {
-            query: "SELECT * FROM DiplomaHistorico dh WHERE dh.id = @id",
+            query: "SELECT * FROM diplomahistorico dh WHERE dh.id = @id",
             parameters:[
                 {name:"@id",value:id}
             ]
@@ -50,7 +44,7 @@ class DiplomaService {
         const diplomaAntigo = listaHistorico[0];
 
         //Atualizar os campos
-        diplomaAntigo.nomaAluno = diploma.nomeAluno;
+        diplomaAntigo.nomeAluno = diploma.nomeAluno;
         
         await this.container.items.upsert(diplomaAntigo);
 
