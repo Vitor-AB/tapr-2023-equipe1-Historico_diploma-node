@@ -7,10 +7,16 @@ class DiplomaService {
         cosmosdb.container("diplomahistorico");
 
     async all(): Promise<DiplomaHistorico[]>{
-        const {resources: listaHistorico}
-            = await this.container.items.readAll<DiplomaHistorico>().fetchAll();
+        try{
+            const {resources: listaHistorico}
+                = await this.container.items.readAll<DiplomaHistorico>().fetchAll();
 
-        return Promise.resolve(listaHistorico);
+            return Promise.resolve(listaHistorico);
+        }catch(err){
+            return err;
+        }
+        
+    
     }
     async getById(id:string):Promise<DiplomaHistorico>{
         const querySpec: SqlQuerySpec = {
