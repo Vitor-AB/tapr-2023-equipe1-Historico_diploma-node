@@ -1,0 +1,56 @@
+Starting Dapr with id tapr-2023-equipe1-diplomahistorico-javascript. HTTP Port: 37707. gRPC Port: 46535
+Updating metadata for cliPID: 29864
+time="2023-11-24T00:40:47.321910386Z" level=info msg="Starting Dapr Runtime -- version 1.12.2 -- commit f954254ed520409602024ea6d507d0405afa1f07" app_id=tapr-2023-equipe1-diplomahistorico-javascript instance=codespaces-2a7442 scope=dapr.runtime type=log ver=1.12.2
+time="2023-11-24T00:40:47.321973544Z" level=info msg="Log level set to: info" app_id=tapr-2023-equipe1-diplomahistorico-javascript instance=codespaces-2a7442 scope=dapr.runtime type=log ver=1.12.2
+time="2023-11-24T00:40:47.322176973Z" level=warning msg="mTLS is disabled. Skipping certificate request and tls validation" app_id=tapr-2023-equipe1-diplomahistorico-javascript instance=codespaces-2a7442 scope=dapr.runtime.security type=log ver=1.12.2
+time="2023-11-24T00:40:47.323419571Z" level=info msg="metrics server started on :37519/" app_id=tapr-2023-equipe1-diplomahistorico-javascript instance=codespaces-2a7442 scope=dapr.runtime type=log ver=1.12.2
+time="2023-11-24T00:40:47.32367061Z" level=info msg="standalone mode configured" app_id=tapr-2023-equipe1-diplomahistorico-javascript instance=codespaces-2a7442 scope=dapr.runtime type=log ver=1.12.2
+time="2023-11-24T00:40:47.323720973Z" level=info msg="app id: tapr-2023-equipe1-diplomahistorico-javascript" app_id=tapr-2023-equipe1-diplomahistorico-javascript instance=codespaces-2a7442 scope=dapr.runtime type=log ver=1.12.2
+time="2023-11-24T00:40:47.323797567Z" level=info msg="Dapr trace sampler initialized: DaprTraceSampler(P=1.000000)" app_id=tapr-2023-equipe1-diplomahistorico-javascript instance=codespaces-2a7442 scope=dapr.runtime type=log ver=1.12.2
+time="2023-11-24T00:40:47.324278854Z" level=info msg="local service entry announced: tapr-2023-equipe1-diplomahistorico-javascript -> 172.16.5.4:43937" app_id=tapr-2023-equipe1-diplomahistorico-javascript component="mdns (nameResolution/v1)" instance=codespaces-2a7442 scope=dapr.contrib type=log ver=1.12.2
+time="2023-11-24T00:40:47.324323678Z" level=info msg="Initialized name resolution to mdns" app_id=tapr-2023-equipe1-diplomahistorico-javascript instance=codespaces-2a7442 scope=dapr.runtime type=log ver=1.12.2
+time="2023-11-24T00:40:47.324422162Z" level=info msg="Loading components…" app_id=tapr-2023-equipe1-diplomahistorico-javascript instance=codespaces-2a7442 scope=dapr.runtime type=log ver=1.12.2
+time="2023-11-24T00:40:47.325086601Z" level=info msg="Waiting for all outstanding components to be processed…" app_id=tapr-2023-equipe1-diplomahistorico-javascript instance=codespaces-2a7442 scope=dapr.runtime type=log ver=1.12.2
+time="2023-11-24T00:40:50.325938316Z" level=info msg="Component loaded: servicebus-pubsub (pubsub.azure.servicebus.topics/v1)" app_id=tapr-2023-equipe1-diplomahistorico-javascript instance=codespaces-2a7442 scope=dapr.runtime type=log ver=1.12.2
+time="2023-11-24T00:40:50.326126026Z" level=info msg="All outstanding components processed" app_id=tapr-2023-equipe1-diplomahistorico-javascript instance=codespaces-2a7442 scope=dapr.runtime type=log ver=1.12.2
+time="2023-11-24T00:40:50.32617623Z" level=info msg="Loading endpoints…" app_id=tapr-2023-equipe1-diplomahistorico-javascript instance=codespaces-2a7442 scope=dapr.runtime type=log ver=1.12.2
+time="2023-11-24T00:40:50.326437036Z" level=info msg="Waiting for all outstanding http endpoints to be processed…" app_id=tapr-2023-equipe1-diplomahistorico-javascript instance=codespaces-2a7442 scope=dapr.runtime type=log ver=1.12.2
+time="2023-11-24T00:40:50.326498972Z" level=info msg="All outstanding http endpoints processed" app_id=tapr-2023-equipe1-diplomahistorico-javascript instance=codespaces-2a7442 scope=dapr.runtime type=log ver=1.12.2
+time="2023-11-24T00:40:50.326653891Z" level=info msg="gRPC server listening on TCP address: :46535" app_id=tapr-2023-equipe1-diplomahistorico-javascript instance=codespaces-2a7442 scope=dapr.runtime.grpc.api type=log ver=1.12.2
+time="2023-11-24T00:40:50.326717991Z" level=info msg="Enabled gRPC tracing middleware" app_id=tapr-2023-equipe1-diplomahistorico-javascript instance=codespaces-2a7442 scope=dapr.runtime.grpc.api type=log ver=1.12.2
+time="2023-11-24T00:40:50.326772182Z" level=info msg="Enabled gRPC metrics middleware" app_id=tapr-2023-equipe1-diplomahistorico-javascript instance=codespaces-2a7442 scope=dapr.runtime.grpc.api type=log ver=1.12.2
+time="2023-11-24T00:40:50.326874412Z" level=info msg="Registering workflow engine for gRPC endpoint: [::]:46535" app_id=tapr-2023-equipe1-diplomahistorico-javascript instance=codespaces-2a7442 scope=dapr.runtime.grpc.api type=log ver=1.12.2
+time="2023-11-24T00:40:50.326962126Z" level=info msg="API gRPC server is running on port 46535" app_id=tapr-2023-equipe1-diplomahistorico-javascript instance=codespaces-2a7442 scope=dapr.runtime type=log ver=1.12.2
+time="2023-11-24T00:40:50.327045241Z" level=info msg="Enabled max body size HTTP middleware with size 4 MB" app_id=tapr-2023-equipe1-diplomahistorico-javascript instance=codespaces-2a7442 scope=dapr.runtime.http type=log ver=1.12.2
+time="2023-11-24T00:40:50.327095956Z" level=info msg="Enabled tracing HTTP middleware" app_id=tapr-2023-equipe1-diplomahistorico-javascript instance=codespaces-2a7442 scope=dapr.runtime.http type=log ver=1.12.2
+time="2023-11-24T00:40:50.327132484Z" level=info msg="Enabled metrics HTTP middleware" app_id=tapr-2023-equipe1-diplomahistorico-javascript instance=codespaces-2a7442 scope=dapr.runtime.http type=log ver=1.12.2
+time="2023-11-24T00:40:50.32747887Z" level=info msg="HTTP server listening on TCP address: :37707" app_id=tapr-2023-equipe1-diplomahistorico-javascript instance=codespaces-2a7442 scope=dapr.runtime.http type=log ver=1.12.2
+time="2023-11-24T00:40:50.327542539Z" level=info msg="HTTP server is running on port 37707" app_id=tapr-2023-equipe1-diplomahistorico-javascript instance=codespaces-2a7442 scope=dapr.runtime type=log ver=1.12.2
+time="2023-11-24T00:40:50.32757548Z" level=info msg="The request body size parameter is: 4" app_id=tapr-2023-equipe1-diplomahistorico-javascript instance=codespaces-2a7442 scope=dapr.runtime type=log ver=1.12.2
+time="2023-11-24T00:40:50.32762881Z" level=info msg="gRPC server listening on TCP address: :43937" app_id=tapr-2023-equipe1-diplomahistorico-javascript instance=codespaces-2a7442 scope=dapr.runtime.grpc.internal type=log ver=1.12.2
+time="2023-11-24T00:40:50.327664797Z" level=info msg="Enabled gRPC tracing middleware" app_id=tapr-2023-equipe1-diplomahistorico-javascript instance=codespaces-2a7442 scope=dapr.runtime.grpc.internal type=log ver=1.12.2
+time="2023-11-24T00:40:50.32768775Z" level=info msg="Enabled gRPC metrics middleware" app_id=tapr-2023-equipe1-diplomahistorico-javascript instance=codespaces-2a7442 scope=dapr.runtime.grpc.internal type=log ver=1.12.2
+time="2023-11-24T00:40:50.327729127Z" level=info msg="Internal gRPC server is running on port 43937" app_id=tapr-2023-equipe1-diplomahistorico-javascript instance=codespaces-2a7442 scope=dapr.runtime type=log ver=1.12.2
+time="2023-11-24T00:40:50.327806421Z" level=info msg="application protocol: http. waiting on port 3000.  This will block until the app is listening on that port." app_id=tapr-2023-equipe1-diplomahistorico-javascript instance=codespaces-2a7442 scope=dapr.runtime type=log ver=1.12.2
+time="2023-11-24T00:40:51.438974481Z" level=info msg="application discovered on port 3000" app_id=tapr-2023-equipe1-diplomahistorico-javascript instance=codespaces-2a7442 scope=dapr.runtime type=log ver=1.12.2
+time="2023-11-24T00:40:51.530693759Z" level=info msg="Application configuration loaded" app_id=tapr-2023-equipe1-diplomahistorico-javascript instance=codespaces-2a7442 scope=dapr.runtime type=log ver=1.12.2
+time="2023-11-24T00:40:51.530745946Z" level=info msg="actors: state store is not configured - this is okay for clients but services with hosted actors will fail to initialize!" app_id=tapr-2023-equipe1-diplomahistorico-javascript instance=codespaces-2a7442 scope=dapr.runtime type=log ver=1.12.2
+time="2023-11-24T00:40:51.531363057Z" level=info msg="Actor runtime started. Actor idle timeout: 1h0m0s. Actor scan interval: 30s" app_id=tapr-2023-equipe1-diplomahistorico-javascript instance=codespaces-2a7442 scope=dapr.runtime.actor type=log ver=1.12.2
+time="2023-11-24T00:40:51.531420825Z" level=info msg="Configuring workflow engine with actors backend" app_id=tapr-2023-equipe1-diplomahistorico-javascript instance=codespaces-2a7442 scope=dapr.runtime.wfengine type=log ver=1.12.2
+time="2023-11-24T00:40:51.531448187Z" level=info msg="Registering component for dapr workflow engine..." app_id=tapr-2023-equipe1-diplomahistorico-javascript instance=codespaces-2a7442 scope=dapr.runtime type=log ver=1.12.2
+time="2023-11-24T00:40:51.531479435Z" level=info msg="Initializing Dapr workflow component" app_id=tapr-2023-equipe1-diplomahistorico-javascript component="dapr (workflow.dapr/v1)" instance=codespaces-2a7442 scope=dapr.contrib type=log ver=1.12.2
+time="2023-11-24T00:40:51.535772816Z" level=info msg="dapr initialized. Status: Running. Init Elapsed 4212ms" app_id=tapr-2023-equipe1-diplomahistorico-javascript instance=codespaces-2a7442 scope=dapr.runtime type=log ver=1.12.2
+time="2023-11-24T00:40:51.549609359Z" level=info msg="Placement tables updated, version: 0" app_id=tapr-2023-equipe1-diplomahistorico-javascript instance=codespaces-2a7442 scope=dapr.runtime.actors.placement type=log ver=1.12.2
+Updating metadata for app command: npm run dev
+Updating metadata for appPID: 29878
+You're up and running! Dapr logs will appear here.
+
+
+termination signal received: shutting down
+time="2023-11-24T00:41:15.707336945Z" level=info msg="Received signal 'interrupt'; beginning shutdown" app_id=tapr-2023-equipe1-diplomahistorico-javascript instance=codespaces-2a7442 scope=dapr.signals type=log ver=1.12.2
+time="2023-11-24T00:41:15.707944367Z" level=info msg="Dapr is shutting down" app_id=tapr-2023-equipe1-diplomahistorico-javascript instance=codespaces-2a7442 scope=dapr.runtime type=log ver=1.12.2
+time="2023-11-24T00:41:15.707985834Z" level=info msg="Shutting down component dapr (workflow.dapr/v1)" app_id=tapr-2023-equipe1-diplomahistorico-javascript instance=codespaces-2a7442 scope=dapr.runtime type=log ver=1.12.2
+time="2023-11-24T00:41:15.708014828Z" level=info msg="Shutting down workflow engine" app_id=tapr-2023-equipe1-diplomahistorico-javascript instance=codespaces-2a7442 scope=dapr.runtime type=log ver=1.12.2
+time="2023-11-24T00:41:15.708038052Z" level=info msg="Shutting down actor" app_id=tapr-2023-equipe1-diplomahistorico-javascript instance=codespaces-2a7442 scope=dapr.runtime type=log ver=1.12.2
+Exited Dapr successfully
+Exited App successfully

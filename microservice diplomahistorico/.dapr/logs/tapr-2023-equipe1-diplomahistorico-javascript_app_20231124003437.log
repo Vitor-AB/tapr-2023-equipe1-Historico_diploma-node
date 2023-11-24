@@ -1,0 +1,131 @@
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == 
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == > microservice diplomahistorico@1.0.0 dev
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == > nodemon server/index.ts | pino-pretty
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == 
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == [nodemon] 2.0.22
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == [nodemon] to restart at any time, enter `rs`
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == [nodemon] watching path(s): server/**/* .env
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == [nodemon] watching extensions: ts,js,json,yaml,yml
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == [nodemon] starting `ts-node server/index.ts`
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == [1700786081282] INFO (tapr-2023-equipe1-diplomahistorico-javascript/25332 on codespaces-2a7442): up and running in development @: codespaces-2a7442 on port: 3000}
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == AggregateAuthenticationError: ChainedTokenCredential authentication failed.
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == CredentialUnavailableError: EnvironmentCredential is unavailable. No underlying credential could be used. To troubleshoot, visit https://aka.ms/azsdk/js/identity/environmentcredential/troubleshoot.
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == CredentialUnavailableError: WorkloadIdentityCredential: is unavailable. tenantId, clientId, and federatedTokenFilePath are required parameters. 
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==       In DefaultAzureCredential and ManagedIdentityCredential, these can be provided as environment variables - 
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==       "AZURE_TENANT_ID",
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==       "AZURE_CLIENT_ID",
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==       "AZURE_FEDERATED_TOKEN_FILE". See the troubleshooting guide for more information: https://aka.ms/azsdk/js/identity/workloadidentitycredential/troubleshoot  
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == CredentialUnavailableError: ManagedIdentityCredential: Authentication failed. Message ManagedIdentityCredential - No MSI credential available
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == CredentialUnavailableError: ERROR: AADSTS50173: The provided grant has expired due to it being revoked, a fresh auth token is needed. The user might have changed or reset their password. The grant was issued on '2023-11-17T22:52:59.3485555Z' and the TokensValidFrom date (before which tokens are not valid) for this user is '2023-11-23T18:58:41.0000000Z'. Trace ID: b9941666-eb2e-4ff2-bed8-6fd4cc952802 Correlation ID: fbbbcdfb-d353-4930-b402-2a9c196dfedf Timestamp: 2023-11-24 00:34:54Z
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == Interactive authentication is needed. Please run:
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == az login --scope https://cosmoslueslenmachado.documents.azure.com/.default
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == 
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == CredentialUnavailableError: Error: Unable to execute PowerShell. Ensure that it is installed in your system. To troubleshoot, visit https://aka.ms/azsdk/js/identity/powershellcredential/troubleshoot.
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == CredentialUnavailableError: Azure Developer CLI couldn't be found. To mitigate this issue, see the troubleshooting guidelines at https://aka.ms/azsdk/js/identity/azdevclicredential/troubleshoot.
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     at /workspaces/tapr-2023-equipe1-Historico_diploma-node/microservice diplomahistorico/node_modules/@azure/identity/src/credentials/chainedTokenCredential.ts:85:23
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     at processTicksAndRejections (node:internal/process/task_queues:95:5)
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     at async Object.withSpan (/workspaces/tapr-2023-equipe1-Historico_diploma-node/microservice diplomahistorico/node_modules/@azure/core-tracing/src/tracingClient.ts:70:22)
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     at async DefaultAzureCredential.getToken (/workspaces/tapr-2023-equipe1-Historico_diploma-node/microservice diplomahistorico/node_modules/@azure/identity/src/credentials/chainedTokenCredential.ts:51:23)
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     at async tryGetAccessToken (/workspaces/tapr-2023-equipe1-Historico_diploma-node/microservice diplomahistorico/node_modules/@azure/core-rest-pipeline/src/util/tokenCycler.ts:71:26)
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     at async beginRefresh (/workspaces/tapr-2023-equipe1-Historico_diploma-node/microservice diplomahistorico/node_modules/@azure/core-rest-pipeline/src/util/tokenCycler.ts:82:35)
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     at async Object.authorizeRequest (/workspaces/tapr-2023-equipe1-Historico_diploma-node/microservice diplomahistorico/node_modules/@azure/cosmos/src/ClientContext.ts:84:37)
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     at async Object.sendRequest (/workspaces/tapr-2023-equipe1-Historico_diploma-node/microservice diplomahistorico/node_modules/@azure/core-rest-pipeline/src/policies/bearerTokenAuthenticationPolicy.ts:179:7)
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     at async httpRequest (/workspaces/tapr-2023-equipe1-Historico_diploma-node/microservice diplomahistorico/node_modules/@azure/cosmos/src/request/RequestHandler.ts:91:18)
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     at async /workspaces/tapr-2023-equipe1-Historico_diploma-node/microservice diplomahistorico/node_modules/@azure/cosmos/src/retry/retryUtility.ts:107:26 {
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==   errors: [
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     CredentialUnavailableError: EnvironmentCredential is unavailable. No underlying credential could be used. To troubleshoot, visit https://aka.ms/azsdk/js/identity/environmentcredential/troubleshoot.
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==         at /workspaces/tapr-2023-equipe1-Historico_diploma-node/microservice diplomahistorico/node_modules/@azure/identity/src/credentials/environmentCredential.ts:151:13
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==         at /workspaces/tapr-2023-equipe1-Historico_diploma-node/microservice diplomahistorico/node_modules/@azure/core-tracing/src/tracingClient.ts:71:25
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==         at Object.withContext (/workspaces/tapr-2023-equipe1-Historico_diploma-node/microservice diplomahistorico/node_modules/@azure/core-tracing/src/instrumenter.ts:50:14)
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==         at withContext (/workspaces/tapr-2023-equipe1-Historico_diploma-node/microservice diplomahistorico/node_modules/@azure/core-tracing/src/tracingClient.ts:91:30)
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==         at Object.withSpan (/workspaces/tapr-2023-equipe1-Historico_diploma-node/microservice diplomahistorico/node_modules/@azure/core-tracing/src/tracingClient.ts:70:28)
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==         at EnvironmentCredential.getToken (/workspaces/tapr-2023-equipe1-Historico_diploma-node/microservice diplomahistorico/node_modules/@azure/identity/src/credentials/environmentCredential.ts:136:26)
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==         at /workspaces/tapr-2023-equipe1-Historico_diploma-node/microservice diplomahistorico/node_modules/@azure/identity/src/credentials/chainedTokenCredential.ts:69:44
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==         at /workspaces/tapr-2023-equipe1-Historico_diploma-node/microservice diplomahistorico/node_modules/@azure/core-tracing/src/tracingClient.ts:71:25
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==         at Object.withContext (/workspaces/tapr-2023-equipe1-Historico_diploma-node/microservice diplomahistorico/node_modules/@azure/core-tracing/src/instrumenter.ts:50:14)
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==         at withContext (/workspaces/tapr-2023-equipe1-Historico_diploma-node/microservice diplomahistorico/node_modules/@azure/core-tracing/src/tracingClient.ts:91:30),
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     CredentialUnavailableError: WorkloadIdentityCredential: is unavailable. tenantId, clientId, and federatedTokenFilePath are required parameters. 
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==           In DefaultAzureCredential and ManagedIdentityCredential, these can be provided as environment variables - 
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==           "AZURE_TENANT_ID",
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==           "AZURE_CLIENT_ID",
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==           "AZURE_FEDERATED_TOKEN_FILE". See the troubleshooting guide for more information: https://aka.ms/azsdk/js/identity/workloadidentitycredential/troubleshoot  
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==         at DefaultWorkloadIdentityCredential.getToken (/workspaces/tapr-2023-equipe1-Historico_diploma-node/microservice diplomahistorico/node_modules/@azure/identity/src/credentials/workloadIdentityCredential.ts:96:13)
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==         at /workspaces/tapr-2023-equipe1-Historico_diploma-node/microservice diplomahistorico/node_modules/@azure/identity/src/credentials/chainedTokenCredential.ts:69:44
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==         at processTicksAndRejections (node:internal/process/task_queues:95:5)
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==         at async Object.withSpan (/workspaces/tapr-2023-equipe1-Historico_diploma-node/microservice diplomahistorico/node_modules/@azure/core-tracing/src/tracingClient.ts:70:22)
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==         at async DefaultAzureCredential.getToken (/workspaces/tapr-2023-equipe1-Historico_diploma-node/microservice diplomahistorico/node_modules/@azure/identity/src/credentials/chainedTokenCredential.ts:51:23)
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==         at async tryGetAccessToken (/workspaces/tapr-2023-equipe1-Historico_diploma-node/microservice diplomahistorico/node_modules/@azure/core-rest-pipeline/src/util/tokenCycler.ts:71:26)
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==         at async beginRefresh (/workspaces/tapr-2023-equipe1-Historico_diploma-node/microservice diplomahistorico/node_modules/@azure/core-rest-pipeline/src/util/tokenCycler.ts:82:35)
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==         at async Object.authorizeRequest (/workspaces/tapr-2023-equipe1-Historico_diploma-node/microservice diplomahistorico/node_modules/@azure/cosmos/src/ClientContext.ts:84:37)
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==         at async Object.sendRequest (/workspaces/tapr-2023-equipe1-Historico_diploma-node/microservice diplomahistorico/node_modules/@azure/core-rest-pipeline/src/policies/bearerTokenAuthenticationPolicy.ts:179:7)
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==         at async httpRequest (/workspaces/tapr-2023-equipe1-Historico_diploma-node/microservice diplomahistorico/node_modules/@azure/cosmos/src/request/RequestHandler.ts:91:18),
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     CredentialUnavailableError: ManagedIdentityCredential: Authentication failed. Message ManagedIdentityCredential - No MSI credential available
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==         at DefaultManagedIdentityCredential.getToken (/workspaces/tapr-2023-equipe1-Historico_diploma-node/microservice diplomahistorico/node_modules/@azure/identity/src/credentials/managedIdentityCredential/index.ts:343:15)
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==         at processTicksAndRejections (node:internal/process/task_queues:95:5)
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==         at async /workspaces/tapr-2023-equipe1-Historico_diploma-node/microservice diplomahistorico/node_modules/@azure/identity/src/credentials/chainedTokenCredential.ts:69:21
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==         at async Object.withSpan (/workspaces/tapr-2023-equipe1-Historico_diploma-node/microservice diplomahistorico/node_modules/@azure/core-tracing/src/tracingClient.ts:70:22)
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==         at async DefaultAzureCredential.getToken (/workspaces/tapr-2023-equipe1-Historico_diploma-node/microservice diplomahistorico/node_modules/@azure/identity/src/credentials/chainedTokenCredential.ts:51:23)
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==         at async tryGetAccessToken (/workspaces/tapr-2023-equipe1-Historico_diploma-node/microservice diplomahistorico/node_modules/@azure/core-rest-pipeline/src/util/tokenCycler.ts:71:26)
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==         at async beginRefresh (/workspaces/tapr-2023-equipe1-Historico_diploma-node/microservice diplomahistorico/node_modules/@azure/core-rest-pipeline/src/util/tokenCycler.ts:82:35)
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==         at async Object.authorizeRequest (/workspaces/tapr-2023-equipe1-Historico_diploma-node/microservice diplomahistorico/node_modules/@azure/cosmos/src/ClientContext.ts:84:37)
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==         at async Object.sendRequest (/workspaces/tapr-2023-equipe1-Historico_diploma-node/microservice diplomahistorico/node_modules/@azure/core-rest-pipeline/src/policies/bearerTokenAuthenticationPolicy.ts:179:7)
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==         at async httpRequest (/workspaces/tapr-2023-equipe1-Historico_diploma-node/microservice diplomahistorico/node_modules/@azure/cosmos/src/request/RequestHandler.ts:91:18),
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     CredentialUnavailableError: ERROR: AADSTS50173: The provided grant has expired due to it being revoked, a fresh auth token is needed. The user might have changed or reset their password. The grant was issued on '2023-11-17T22:52:59.3485555Z' and the TokensValidFrom date (before which tokens are not valid) for this user is '2023-11-23T18:58:41.0000000Z'. Trace ID: b9941666-eb2e-4ff2-bed8-6fd4cc952802 Correlation ID: fbbbcdfb-d353-4930-b402-2a9c196dfedf Timestamp: 2023-11-24 00:34:54Z
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     Interactive authentication is needed. Please run:
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     az login --scope https://cosmoslueslenmachado.documents.azure.com/.default
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==         at /workspaces/tapr-2023-equipe1-Historico_diploma-node/microservice diplomahistorico/node_modules/@azure/identity/src/credentials/azureCliCredential.ts:163:19
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==         at processTicksAndRejections (node:internal/process/task_queues:95:5)
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==         at async Object.withSpan (/workspaces/tapr-2023-equipe1-Historico_diploma-node/microservice diplomahistorico/node_modules/@azure/core-tracing/src/tracingClient.ts:70:22)
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==         at async /workspaces/tapr-2023-equipe1-Historico_diploma-node/microservice diplomahistorico/node_modules/@azure/identity/src/credentials/chainedTokenCredential.ts:69:21
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==         at async Object.withSpan (/workspaces/tapr-2023-equipe1-Historico_diploma-node/microservice diplomahistorico/node_modules/@azure/core-tracing/src/tracingClient.ts:70:22)
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==         at async DefaultAzureCredential.getToken (/workspaces/tapr-2023-equipe1-Historico_diploma-node/microservice diplomahistorico/node_modules/@azure/identity/src/credentials/chainedTokenCredential.ts:51:23)
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==         at async tryGetAccessToken (/workspaces/tapr-2023-equipe1-Historico_diploma-node/microservice diplomahistorico/node_modules/@azure/core-rest-pipeline/src/util/tokenCycler.ts:71:26)
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==         at async beginRefresh (/workspaces/tapr-2023-equipe1-Historico_diploma-node/microservice diplomahistorico/node_modules/@azure/core-rest-pipeline/src/util/tokenCycler.ts:82:35)
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==         at async Object.authorizeRequest (/workspaces/tapr-2023-equipe1-Historico_diploma-node/microservice diplomahistorico/node_modules/@azure/cosmos/src/ClientContext.ts:84:37)
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==         at async Object.sendRequest (/workspaces/tapr-2023-equipe1-Historico_diploma-node/microservice diplomahistorico/node_modules/@azure/core-rest-pipeline/src/policies/bearerTokenAuthenticationPolicy.ts:179:7),
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     CredentialUnavailableError: Error: Unable to execute PowerShell. Ensure that it is installed in your system. To troubleshoot, visit https://aka.ms/azsdk/js/identity/powershellcredential/troubleshoot.
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==         at /workspaces/tapr-2023-equipe1-Historico_diploma-node/microservice diplomahistorico/node_modules/@azure/identity/src/credentials/azurePowerShellCredential.ts:209:23
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==         at processTicksAndRejections (node:internal/process/task_queues:95:5)
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==         at async Object.withSpan (/workspaces/tapr-2023-equipe1-Historico_diploma-node/microservice diplomahistorico/node_modules/@azure/core-tracing/src/tracingClient.ts:70:22)
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==         at async /workspaces/tapr-2023-equipe1-Historico_diploma-node/microservice diplomahistorico/node_modules/@azure/identity/src/credentials/chainedTokenCredential.ts:69:21
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==         at async Object.withSpan (/workspaces/tapr-2023-equipe1-Historico_diploma-node/microservice diplomahistorico/node_modules/@azure/core-tracing/src/tracingClient.ts:70:22)
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==         at async DefaultAzureCredential.getToken (/workspaces/tapr-2023-equipe1-Historico_diploma-node/microservice diplomahistorico/node_modules/@azure/identity/src/credentials/chainedTokenCredential.ts:51:23)
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==         at async tryGetAccessToken (/workspaces/tapr-2023-equipe1-Historico_diploma-node/microservice diplomahistorico/node_modules/@azure/core-rest-pipeline/src/util/tokenCycler.ts:71:26)
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==         at async beginRefresh (/workspaces/tapr-2023-equipe1-Historico_diploma-node/microservice diplomahistorico/node_modules/@azure/core-rest-pipeline/src/util/tokenCycler.ts:82:35)
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==         at async Object.authorizeRequest (/workspaces/tapr-2023-equipe1-Historico_diploma-node/microservice diplomahistorico/node_modules/@azure/cosmos/src/ClientContext.ts:84:37)
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==         at async Object.sendRequest (/workspaces/tapr-2023-equipe1-Historico_diploma-node/microservice diplomahistorico/node_modules/@azure/core-rest-pipeline/src/policies/bearerTokenAuthenticationPolicy.ts:179:7),
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     CredentialUnavailableError: Azure Developer CLI couldn't be found. To mitigate this issue, see the troubleshooting guidelines at https://aka.ms/azsdk/js/identity/azdevclicredential/troubleshoot.
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==         at /workspaces/tapr-2023-equipe1-Historico_diploma-node/microservice diplomahistorico/node_modules/@azure/identity/src/credentials/azureDeveloperCliCredential.ts:170:25
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==         at processTicksAndRejections (node:internal/process/task_queues:95:5)
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==         at async Object.withSpan (/workspaces/tapr-2023-equipe1-Historico_diploma-node/microservice diplomahistorico/node_modules/@azure/core-tracing/src/tracingClient.ts:70:22)
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==         at async /workspaces/tapr-2023-equipe1-Historico_diploma-node/microservice diplomahistorico/node_modules/@azure/identity/src/credentials/chainedTokenCredential.ts:69:21
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==         at async Object.withSpan (/workspaces/tapr-2023-equipe1-Historico_diploma-node/microservice diplomahistorico/node_modules/@azure/core-tracing/src/tracingClient.ts:70:22)
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==         at async DefaultAzureCredential.getToken (/workspaces/tapr-2023-equipe1-Historico_diploma-node/microservice diplomahistorico/node_modules/@azure/identity/src/credentials/chainedTokenCredential.ts:51:23)
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==         at async tryGetAccessToken (/workspaces/tapr-2023-equipe1-Historico_diploma-node/microservice diplomahistorico/node_modules/@azure/core-rest-pipeline/src/util/tokenCycler.ts:71:26)
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==         at async beginRefresh (/workspaces/tapr-2023-equipe1-Historico_diploma-node/microservice diplomahistorico/node_modules/@azure/core-rest-pipeline/src/util/tokenCycler.ts:82:35)
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==         at async Object.authorizeRequest (/workspaces/tapr-2023-equipe1-Historico_diploma-node/microservice diplomahistorico/node_modules/@azure/cosmos/src/ClientContext.ts:84:37)
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==         at async Object.sendRequest (/workspaces/tapr-2023-equipe1-Historico_diploma-node/microservice diplomahistorico/node_modules/@azure/core-rest-pipeline/src/policies/bearerTokenAuthenticationPolicy.ts:179:7)
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==   ],
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==   headers: {
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     'x-ms-throttle-retry-count': 0,
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     'x-ms-throttle-retry-wait-time-ms': 0
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==   },
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==   diagnostics: CosmosDiagnostics {
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     clientSideRequestStatistics: {
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==       requestStartTimeUTCInMs: 1700786093677,
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==       requestDurationInMs: 1196,
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==       totalRequestPayloadLengthInBytes: 0,
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==       totalResponsePayloadLengthInBytes: 0,
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==       locationEndpointsContacted: [Array],
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==       metadataDiagnostics: [Object],
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==       retryDiagnostics: [Object],
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==       gatewayStatistics: []
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     },
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     diagnosticNode: undefined,
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     clientConfig: undefined
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==   }
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == }
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == [nodemon] app crashed - waiting for file changes before starting...
+
+termination signal received: shutting down
