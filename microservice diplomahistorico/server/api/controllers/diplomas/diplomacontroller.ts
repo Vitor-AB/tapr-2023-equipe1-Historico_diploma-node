@@ -17,6 +17,7 @@ class DiplomaController {
     delete(req:Request,res:Response):void{
         DiplomaService.delete(req.params['id']).then((r) => res.json(r));
     }
+    
 }
 
 export default new DiplomaController();

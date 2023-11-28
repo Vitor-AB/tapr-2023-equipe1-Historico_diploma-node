@@ -1,0 +1,191 @@
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == 
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == > microservice diplomahistorico@1.0.0 dev
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == > nodemon server/index.ts | pino-pretty
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == 
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == [nodemon] 2.0.22
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == [nodemon] to restart at any time, enter `rs`
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == [nodemon] watching path(s): server/**/* .env
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == [nodemon] watching extensions: ts,js,json,yaml,yml
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == [nodemon] starting `ts-node server/index.ts`
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == /workspaces/tapr-2023-equipe1-Historico_diploma-node/microservice diplomahistorico/node_modules/ts-node/src/index.ts:859
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     return new TSError(diagnosticText, diagnosticCodes, diagnostics);
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==            ^
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == TSError: ⨯ Unable to compile TypeScript:
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == server/api/controllers/diplomas/diplomacontroller.ts(2,28): error TS2306: File '/workspaces/tapr-2023-equipe1-Historico_diploma-node/microservice diplomahistorico/server/api/services/diploma.service.ts' is not a module.
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == server/api/controllers/diplomas/diplomacontroller.ts(6,36): error TS7006: Parameter 'r' implicitly has an 'any' type.
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == server/api/controllers/diplomas/diplomacontroller.ts(9,56): error TS7006: Parameter 'r' implicitly has an 'any' type.
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == server/api/controllers/diplomas/diplomacontroller.ts(12,48): error TS7006: Parameter 'r' implicitly has an 'any' type.
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == server/api/controllers/diplomas/diplomacontroller.ts(15,64): error TS7006: Parameter 'r' implicitly has an 'any' type.
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == server/api/controllers/diplomas/diplomacontroller.ts(18,55): error TS7006: Parameter 'r' implicitly has an 'any' type.
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == 
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     at createTSError (/workspaces/tapr-2023-equipe1-Historico_diploma-node/microservice diplomahistorico/node_modules/ts-node/src/index.ts:859:12)
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     at reportTSError (/workspaces/tapr-2023-equipe1-Historico_diploma-node/microservice diplomahistorico/node_modules/ts-node/src/index.ts:863:19)
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     at getOutput (/workspaces/tapr-2023-equipe1-Historico_diploma-node/microservice diplomahistorico/node_modules/ts-node/src/index.ts:1077:36)
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     at Object.compile (/workspaces/tapr-2023-equipe1-Historico_diploma-node/microservice diplomahistorico/node_modules/ts-node/src/index.ts:1433:41)
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     at Module.m._compile (/workspaces/tapr-2023-equipe1-Historico_diploma-node/microservice diplomahistorico/node_modules/ts-node/src/index.ts:1617:30)
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     at Module._extensions..js (node:internal/modules/cjs/loader:1295:10)
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     at Object.require.extensions.<computed> [as .ts] (/workspaces/tapr-2023-equipe1-Historico_diploma-node/microservice diplomahistorico/node_modules/ts-node/src/index.ts:1621:12)
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     at Module.load (node:internal/modules/cjs/loader:1091:32)
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     at Module.require (node:internal/modules/cjs/loader:1115:19) {
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==   diagnosticCodes: [ 2306, 7006, 7006, 7006, 7006, 7006 ]
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == }
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == [nodemon] app crashed - waiting for file changes before starting...
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == [nodemon] restarting due to changes...
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == [nodemon] starting `ts-node server/index.ts`
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == [nodemon] restarting due to changes...
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == [nodemon] starting `ts-node server/index.ts`
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == [nodemon] restarting due to changes...
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == [nodemon] starting `ts-node server/index.ts`
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == /workspaces/tapr-2023-equipe1-Historico_diploma-node/microservice diplomahistorico/node_modules/ts-node/src/index.ts:859
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     return new TSError(diagnosticText, diagnosticCodes, diagnostics);
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==            ^
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == TSError: ⨯ Unable to compile TypeScript:
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == server/api/controllers/diplomas/diplomacontroller.ts(2,28): error TS2307: Cannot find module '/../services/diploma.service' or its corresponding type declarations.
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == server/api/controllers/diplomas/diplomacontroller.ts(6,36): error TS7006: Parameter 'r' implicitly has an 'any' type.
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == server/api/controllers/diplomas/diplomacontroller.ts(9,56): error TS7006: Parameter 'r' implicitly has an 'any' type.
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == server/api/controllers/diplomas/diplomacontroller.ts(12,48): error TS7006: Parameter 'r' implicitly has an 'any' type.
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == server/api/controllers/diplomas/diplomacontroller.ts(15,64): error TS7006: Parameter 'r' implicitly has an 'any' type.
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == server/api/controllers/diplomas/diplomacontroller.ts(18,55): error TS7006: Parameter 'r' implicitly has an 'any' type.
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == 
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     at createTSError (/workspaces/tapr-2023-equipe1-Historico_diploma-node/microservice diplomahistorico/node_modules/ts-node/src/index.ts:859:12)
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     at reportTSError (/workspaces/tapr-2023-equipe1-Historico_diploma-node/microservice diplomahistorico/node_modules/ts-node/src/index.ts:863:19)
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     at getOutput (/workspaces/tapr-2023-equipe1-Historico_diploma-node/microservice diplomahistorico/node_modules/ts-node/src/index.ts:1077:36)
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     at Object.compile (/workspaces/tapr-2023-equipe1-Historico_diploma-node/microservice diplomahistorico/node_modules/ts-node/src/index.ts:1433:41)
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     at Module.m._compile (/workspaces/tapr-2023-equipe1-Historico_diploma-node/microservice diplomahistorico/node_modules/ts-node/src/index.ts:1617:30)
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     at Module._extensions..js (node:internal/modules/cjs/loader:1295:10)
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     at Object.require.extensions.<computed> [as .ts] (/workspaces/tapr-2023-equipe1-Historico_diploma-node/microservice diplomahistorico/node_modules/ts-node/src/index.ts:1621:12)
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     at Module.load (node:internal/modules/cjs/loader:1091:32)
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     at Module.require (node:internal/modules/cjs/loader:1115:19) {
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==   diagnosticCodes: [ 2307, 7006, 7006, 7006, 7006, 7006 ]
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == }
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == [nodemon] app crashed - waiting for file changes before starting...
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == [nodemon] restarting due to changes...
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == [nodemon] starting `ts-node server/index.ts`
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == /workspaces/tapr-2023-equipe1-Historico_diploma-node/microservice diplomahistorico/node_modules/ts-node/src/index.ts:859
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     return new TSError(diagnosticText, diagnosticCodes, diagnostics);
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==            ^
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == TSError: ⨯ Unable to compile TypeScript:
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == server/api/controllers/diplomas/diplomacontroller.ts(2,28): error TS2307: Cannot find module '../services/diploma.service' or its corresponding type declarations.
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == server/api/controllers/diplomas/diplomacontroller.ts(6,36): error TS7006: Parameter 'r' implicitly has an 'any' type.
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == server/api/controllers/diplomas/diplomacontroller.ts(9,56): error TS7006: Parameter 'r' implicitly has an 'any' type.
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == server/api/controllers/diplomas/diplomacontroller.ts(12,48): error TS7006: Parameter 'r' implicitly has an 'any' type.
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == server/api/controllers/diplomas/diplomacontroller.ts(15,64): error TS7006: Parameter 'r' implicitly has an 'any' type.
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == server/api/controllers/diplomas/diplomacontroller.ts(18,55): error TS7006: Parameter 'r' implicitly has an 'any' type.
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == 
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     at createTSError (/workspaces/tapr-2023-equipe1-Historico_diploma-node/microservice diplomahistorico/node_modules/ts-node/src/index.ts:859:12)
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     at reportTSError (/workspaces/tapr-2023-equipe1-Historico_diploma-node/microservice diplomahistorico/node_modules/ts-node/src/index.ts:863:19)
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     at getOutput (/workspaces/tapr-2023-equipe1-Historico_diploma-node/microservice diplomahistorico/node_modules/ts-node/src/index.ts:1077:36)
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     at Object.compile (/workspaces/tapr-2023-equipe1-Historico_diploma-node/microservice diplomahistorico/node_modules/ts-node/src/index.ts:1433:41)
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     at Module.m._compile (/workspaces/tapr-2023-equipe1-Historico_diploma-node/microservice diplomahistorico/node_modules/ts-node/src/index.ts:1617:30)
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     at Module._extensions..js (node:internal/modules/cjs/loader:1295:10)
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     at Object.require.extensions.<computed> [as .ts] (/workspaces/tapr-2023-equipe1-Historico_diploma-node/microservice diplomahistorico/node_modules/ts-node/src/index.ts:1621:12)
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     at Module.load (node:internal/modules/cjs/loader:1091:32)
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     at Module.require (node:internal/modules/cjs/loader:1115:19) {
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==   diagnosticCodes: [ 2307, 7006, 7006, 7006, 7006, 7006 ]
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == }
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == [nodemon] app crashed - waiting for file changes before starting...
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == [nodemon] restarting due to changes...
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == [nodemon] starting `ts-node server/index.ts`
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == [nodemon] restarting due to changes...
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == [nodemon] starting `ts-node server/index.ts`
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == /workspaces/tapr-2023-equipe1-Historico_diploma-node/microservice diplomahistorico/node_modules/ts-node/src/index.ts:859
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     return new TSError(diagnosticText, diagnosticCodes, diagnostics);
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==            ^
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == TSError: ⨯ Unable to compile TypeScript:
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == server/api/controllers/diplomas/diplomacontroller.ts(6,9): error TS2304: Cannot find name 'DiplomaService'.
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == server/api/controllers/diplomas/diplomacontroller.ts(6,36): error TS7006: Parameter 'r' implicitly has an 'any' type.
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == server/api/controllers/diplomas/diplomacontroller.ts(9,9): error TS2304: Cannot find name 'DiplomaService'.
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == server/api/controllers/diplomas/diplomacontroller.ts(9,56): error TS7006: Parameter 'r' implicitly has an 'any' type.
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == server/api/controllers/diplomas/diplomacontroller.ts(12,9): error TS2304: Cannot find name 'DiplomaService'.
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == server/api/controllers/diplomas/diplomacontroller.ts(12,48): error TS7006: Parameter 'r' implicitly has an 'any' type.
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == server/api/controllers/diplomas/diplomacontroller.ts(15,9): error TS2304: Cannot find name 'DiplomaService'.
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == server/api/controllers/diplomas/diplomacontroller.ts(15,64): error TS7006: Parameter 'r' implicitly has an 'any' type.
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == server/api/controllers/diplomas/diplomacontroller.ts(18,9): error TS2304: Cannot find name 'DiplomaService'.
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == server/api/controllers/diplomas/diplomacontroller.ts(18,55): error TS7006: Parameter 'r' implicitly has an 'any' type.
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == server/api/controllers/diplomas/diplomacontroller.ts(4,1): error TS1005: '=' expected.
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == 
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     at createTSError (/workspaces/tapr-2023-equipe1-Historico_diploma-node/microservice diplomahistorico/node_modules/ts-node/src/index.ts:859:12)
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     at reportTSError (/workspaces/tapr-2023-equipe1-Historico_diploma-node/microservice diplomahistorico/node_modules/ts-node/src/index.ts:863:19)
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     at getOutput (/workspaces/tapr-2023-equipe1-Historico_diploma-node/microservice diplomahistorico/node_modules/ts-node/src/index.ts:1077:36)
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     at Object.compile (/workspaces/tapr-2023-equipe1-Historico_diploma-node/microservice diplomahistorico/node_modules/ts-node/src/index.ts:1433:41)
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     at Module.m._compile (/workspaces/tapr-2023-equipe1-Historico_diploma-node/microservice diplomahistorico/node_modules/ts-node/src/index.ts:1617:30)
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     at Module._extensions..js (node:internal/modules/cjs/loader:1295:10)
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     at Object.require.extensions.<computed> [as .ts] (/workspaces/tapr-2023-equipe1-Historico_diploma-node/microservice diplomahistorico/node_modules/ts-node/src/index.ts:1621:12)
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     at Module.load (node:internal/modules/cjs/loader:1091:32)
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     at Module.require (node:internal/modules/cjs/loader:1115:19) {
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==   diagnosticCodes: [
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     2304, 7006, 2304,
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     7006, 2304, 7006,
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     2304, 7006, 2304,
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     7006, 1005
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==   ]
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == }
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == [nodemon] app crashed - waiting for file changes before starting...
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == [nodemon] restarting due to changes...
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == [nodemon] starting `ts-node server/index.ts`
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == /workspaces/tapr-2023-equipe1-Historico_diploma-node/microservice diplomahistorico/node_modules/ts-node/src/index.ts:859
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     return new TSError(diagnosticText, diagnosticCodes, diagnostics);
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==            ^
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == TSError: ⨯ Unable to compile TypeScript:
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == server/api/controllers/diplomas/diplomacontroller.ts(2,28): error TS2306: File '/workspaces/tapr-2023-equipe1-Historico_diploma-node/microservice diplomahistorico/server/api/services/diploma.service.ts' is not a module.
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == server/api/controllers/diplomas/diplomacontroller.ts(6,9): error TS2552: Cannot find name 'DiplomaService'. Did you mean 'diplomaService'?
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == server/api/controllers/diplomas/diplomacontroller.ts(6,36): error TS7006: Parameter 'r' implicitly has an 'any' type.
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == server/api/controllers/diplomas/diplomacontroller.ts(9,9): error TS2552: Cannot find name 'DiplomaService'. Did you mean 'diplomaService'?
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == server/api/controllers/diplomas/diplomacontroller.ts(9,56): error TS7006: Parameter 'r' implicitly has an 'any' type.
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == server/api/controllers/diplomas/diplomacontroller.ts(12,9): error TS2552: Cannot find name 'DiplomaService'. Did you mean 'diplomaService'?
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == server/api/controllers/diplomas/diplomacontroller.ts(12,48): error TS7006: Parameter 'r' implicitly has an 'any' type.
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == server/api/controllers/diplomas/diplomacontroller.ts(15,9): error TS2552: Cannot find name 'DiplomaService'. Did you mean 'diplomaService'?
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == server/api/controllers/diplomas/diplomacontroller.ts(15,64): error TS7006: Parameter 'r' implicitly has an 'any' type.
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == server/api/controllers/diplomas/diplomacontroller.ts(18,9): error TS2552: Cannot find name 'DiplomaService'. Did you mean 'diplomaService'?
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == server/api/controllers/diplomas/diplomacontroller.ts(18,55): error TS7006: Parameter 'r' implicitly has an 'any' type.
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == 
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     at createTSError (/workspaces/tapr-2023-equipe1-Historico_diploma-node/microservice diplomahistorico/node_modules/ts-node/src/index.ts:859:12)
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     at reportTSError (/workspaces/tapr-2023-equipe1-Historico_diploma-node/microservice diplomahistorico/node_modules/ts-node/src/index.ts:863:19)
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     at getOutput (/workspaces/tapr-2023-equipe1-Historico_diploma-node/microservice diplomahistorico/node_modules/ts-node/src/index.ts:1077:36)
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     at Object.compile (/workspaces/tapr-2023-equipe1-Historico_diploma-node/microservice diplomahistorico/node_modules/ts-node/src/index.ts:1433:41)
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     at Module.m._compile (/workspaces/tapr-2023-equipe1-Historico_diploma-node/microservice diplomahistorico/node_modules/ts-node/src/index.ts:1617:30)
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     at Module._extensions..js (node:internal/modules/cjs/loader:1295:10)
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     at Object.require.extensions.<computed> [as .ts] (/workspaces/tapr-2023-equipe1-Historico_diploma-node/microservice diplomahistorico/node_modules/ts-node/src/index.ts:1621:12)
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     at Module.load (node:internal/modules/cjs/loader:1091:32)
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     at Module.require (node:internal/modules/cjs/loader:1115:19) {
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==   diagnosticCodes: [
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     2306, 2552, 7006,
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     2552, 7006, 2552,
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     7006, 2552, 7006,
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     2552, 7006
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==   ]
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == }
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == [nodemon] app crashed - waiting for file changes before starting...
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == [nodemon] restarting due to changes...
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == [nodemon] starting `ts-node server/index.ts`
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == /workspaces/tapr-2023-equipe1-Historico_diploma-node/microservice diplomahistorico/node_modules/ts-node/src/index.ts:859
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     return new TSError(diagnosticText, diagnosticCodes, diagnostics);
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==            ^
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == TSError: ⨯ Unable to compile TypeScript:
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == server/api/controllers/diplomas/diplomacontroller.ts(2,28): error TS2306: File '/workspaces/tapr-2023-equipe1-Historico_diploma-node/microservice diplomahistorico/server/api/services/diploma.service.ts' is not a module.
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == server/api/controllers/diplomas/diplomacontroller.ts(6,36): error TS7006: Parameter 'r' implicitly has an 'any' type.
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == server/api/controllers/diplomas/diplomacontroller.ts(9,56): error TS7006: Parameter 'r' implicitly has an 'any' type.
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == server/api/controllers/diplomas/diplomacontroller.ts(12,48): error TS7006: Parameter 'r' implicitly has an 'any' type.
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == server/api/controllers/diplomas/diplomacontroller.ts(15,64): error TS7006: Parameter 'r' implicitly has an 'any' type.
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == server/api/controllers/diplomas/diplomacontroller.ts(18,55): error TS7006: Parameter 'r' implicitly has an 'any' type.
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == 
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     at createTSError (/workspaces/tapr-2023-equipe1-Historico_diploma-node/microservice diplomahistorico/node_modules/ts-node/src/index.ts:859:12)
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     at reportTSError (/workspaces/tapr-2023-equipe1-Historico_diploma-node/microservice diplomahistorico/node_modules/ts-node/src/index.ts:863:19)
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     at getOutput (/workspaces/tapr-2023-equipe1-Historico_diploma-node/microservice diplomahistorico/node_modules/ts-node/src/index.ts:1077:36)
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     at Object.compile (/workspaces/tapr-2023-equipe1-Historico_diploma-node/microservice diplomahistorico/node_modules/ts-node/src/index.ts:1433:41)
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     at Module.m._compile (/workspaces/tapr-2023-equipe1-Historico_diploma-node/microservice diplomahistorico/node_modules/ts-node/src/index.ts:1617:30)
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     at Module._extensions..js (node:internal/modules/cjs/loader:1295:10)
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     at Object.require.extensions.<computed> [as .ts] (/workspaces/tapr-2023-equipe1-Historico_diploma-node/microservice diplomahistorico/node_modules/ts-node/src/index.ts:1621:12)
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     at Module.load (node:internal/modules/cjs/loader:1091:32)
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     at Module.require (node:internal/modules/cjs/loader:1115:19) {
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==   diagnosticCodes: [ 2306, 7006, 7006, 7006, 7006, 7006 ]
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == }
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == [nodemon] app crashed - waiting for file changes before starting...
+
+termination signal received: shutting down

@@ -41,6 +41,12 @@ paths:
         200:
           description: Return all
           content: {}
+  /clientes/event:
+    post:
+      responses:
+        200:
+          description: Return all
+          content: {}
   /examples:
     get:
       tags:

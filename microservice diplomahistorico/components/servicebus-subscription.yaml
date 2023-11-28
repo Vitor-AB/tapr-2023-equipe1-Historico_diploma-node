@@ -1,0 +1,11 @@
+apiVersion: dapr.io/v2alpha1
+kind: Subscription
+metadata:
+  name: substopico-equipe-1-historico_secretaria
+spec:
+  topic: topico-equipe-1-historico_secretaria
+  routes:
+    default: /api/v1/clientes/event
+  pubsubname: servicebus-pubsub
+scopes:
+- tapr-2023-equipe1-diplomahistorico-javascript
