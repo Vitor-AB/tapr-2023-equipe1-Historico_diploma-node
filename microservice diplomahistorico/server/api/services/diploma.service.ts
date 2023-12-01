@@ -28,7 +28,7 @@ class DiplomaService {
 
     async publishEvent(diploma:DiplomaHistorico): Promise<DiplomaHistorico>{
         daprClient.pubsub.publish(process.env.APPCOMPONENTSERVICE as string,
-                                  process.env.APPCOMPONENTTOPICCARRO as string,
+                                  process.env.APPCOMPONENTTOPICDIPLOMAHISTORICO as string,
                                   diploma);
         return Promise.resolve(diploma);
 
@@ -60,6 +60,8 @@ class DiplomaService {
 
         //Atualizar os campos
         diplomaAntigo.nomeAluno = diploma.nomeAluno;
+        diplomaAntigo.matriculaAluno = diploma.matriculaAluno;
+        diplomaAntigo.notas = diploma.notas;
         
         await this.container.items.upsert(diplomaAntigo);
         //chamar o método para publicar o evento de atualização da entidade
@@ -79,7 +81,7 @@ class DiplomaService {
         const {resources: listaHistorico}
             = await this.container.items.query(querySpec).fetchAll();
         for (const diploma of listaHistorico) {
-            await this.container.item(diploma.id).delete();
+            await this.container.item(diploma.id,diploma.nomeAluno).delete();
         }
 
         return Promise.resolve(id);

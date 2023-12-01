@@ -1,0 +1,489 @@
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == 
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == > microservice diplomahistorico@1.0.0 dev
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == > nodemon server/index.ts | pino-pretty
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == 
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == [nodemon] 2.0.22
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == [nodemon] to restart at any time, enter `rs`
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == [nodemon] watching path(s): server/**/* .env
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == [nodemon] watching extensions: ts,js,json,yaml,yml
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == [nodemon] starting `ts-node server/index.ts`
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == [1701387937967] INFO (tapr-2023-equipe1-diplomahistorico-javascript/9347 on codespaces-2a7442): up and running in development @: codespaces-2a7442 on port: 3000}
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == 2023-11-30T23:48:28.621Z INFO [HTTPClient, HTTPClient] Sidecar Started
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == /workspaces/tapr-2023-equipe1-Historico_diploma-node/microservice diplomahistorico/node_modules/@azure/cosmos/src/request/RequestHandler.ts:130
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     const errorResponse: ErrorResponse = new ErrorResponse(result.message);
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==                                          ^
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == ErrorResponse: Entity with the specified id does not exist in the system. More info: https://aka.ms/cosmosdb-tsg-not-found, {"Summary":{"DirectCalls":{"(404, 0)":1},"RegionsContacted":1},"name":"HandleDocumentRequest","id":"5b65dc2e-1c24-40e2-b262-68878d31864b","start time":"11:51:47:343","duration in milliseconds":2.7069,"data":{"Client Side Request Stats":{"Id":"AggregatedClientSideRequestStatistics","ContactedReplicas":[{"Count":1,"Uri":"rntbd://cdb-ms-prod-brazilsouth1-fd6.documents.azure.com:14314/apps/da7ef5da-87ed-48f3-b118-57d6c185ac8f/services/06cd303e-0120-4719-9569-3f5a85403bdb/partitions/b3e63861-d9c1-479b-a77a-1e9ab405c3ac/replicas/133419690215073896p/"},{"Count":1,"Uri":"rntbd://cdb-ms-prod-brazilsouth1-fd6.documents.azure.com:14316/apps/da7ef5da-87ed-48f3-b118-57d6c185ac8f/services/06cd303e-0120-4719-9569-3f5a85403bdb/partitions/b3e63861-d9c1-479b-a77a-1e9ab405c3ac/replicas/133419690215073894s/"},{"Count":1,"Uri":"rntbd://cdb-ms-prod-brazilsouth1-fd6.documents.azure.com:14358/apps/da7ef5da-87ed-48f3-b118-57d6c185ac8f/services/06cd303e-0120-4719-9569-3f5a85403bdb/partitions/b3e63861-d9c1-479b-a77a-1e9ab405c3ac/replicas/133419690215073895s/"},{"Count":1,"Uri":"rntbd://cdb-ms-prod-brazilsouth1-fd6.documents.azure.com:14420/apps/da7ef5da-87ed-48f3-b118-57d6c185ac8f/services/06cd303e-0120-4719-9569-3f5a85403bdb/partitions/b3e63861-d9c1-479b-a77a-1e9ab405c3ac/replicas/133419690115385216s/"}],"RegionsContacted":["https://cosmoslueslenmachado-brazilsouth.sql.cosmos.azure.com/"],"FailedReplicas":[],"AddressResolutionStatistics":[],"StoreResponseStatistics":[{"ResponseTimeUTC":"2023-11-30T23:51:47.3457403Z","ResourceType":"Document","OperationType":"Delete","LocationEndpoint":"https://cosmoslueslenmachado-brazilsouth.sql.cosmos.azure.com/","StoreResult":{"ActivityId":"e2a8755e-d006-4557-882a-18d76ca3d96b","StatusCode":"NotFound","SubStatusCode":"Unknown","LSN":56,"PartitionKeyRangeId":"0","GlobalCommittedLSN":56,"ItemLSN":-1,"UsingLocalLSN":false,"QuorumAckedLSN":56,"SessionToken":"-1#56","CurrentWriteQuorum":3,"CurrentReplicaSetSize":4,"NumberOfReadRegions":0,"IsValid":true,"StorePhysicalAddress":"rntbd://cdb-ms-prod-brazilsouth1-fd6.documents.azure.com:14314/apps/da7ef5da-87ed-48f3-b118-57d6c185ac8f/services/06cd303e-0120-4719-9569-3f5a85403bdb/partitions/b3e63861-d9c1-479b-a77a-1e9ab405c3ac/replicas/133419690215073896p/","RequestCharge":1.24,"RetryAfterInMs":null,"BELatencyInMs":"1.271","transportRequestTimeline":{"requestTimeline":[{"event": "Created", "startTimeUtc": "2023-11-30T23:51:47.3435807Z", "durationInMs": 0.0013},{"event": "ChannelAcquisitionStarted", "startTimeUtc": "2023-11-30T23:51:47.3435820Z", "durationInMs": 0.0013},{"event": "Pipelined", "startTimeUtc": "2023-11-30T23:51:47.3435833Z", "durationInMs": 0.0749},{"event": "Transit Time", "startTimeUtc": "2023-11-30T23:51:47.3436582Z", "durationInMs": 2.0244},{"event": "Received", "startTimeUtc": "2023-11-30T23:51:47.3456826Z", "durationInMs": 0.0535},{"event": "Completed", "startTimeUtc": "2023-11-30T23:51:47.3457361Z", "durationInMs": 0}],"serviceEndpointStats":{"inflightRequests":1,"openConnections":1},"connectionStats":{"waitforConnectionInit":"False","callsPendingReceive":0,"lastSendAttempt":"2023-11-30T23:51:47.2256164Z","lastSend":"2023-11-30T23:51:47.2256987Z","lastReceive":"2023-11-30T23:51:47.2276799Z"},"requestSizeInBytes":2237,"responseMetadataSizeInBytes":259,"responseBodySizeInBytes":87},"TransportException":null}}]}}}, Windows/10.0.17763 cosmos-netstandard-sdk/3.18.0
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     at httpRequest (/workspaces/tapr-2023-equipe1-Historico_diploma-node/microservice diplomahistorico/node_modules/@azure/cosmos/src/request/RequestHandler.ts:130:42)
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     at processTicksAndRejections (node:internal/process/task_queues:95:5)
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     at async /workspaces/tapr-2023-equipe1-Historico_diploma-node/microservice diplomahistorico/node_modules/@azure/cosmos/src/retry/retryUtility.ts:107:26
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     at async addDignosticChild (/workspaces/tapr-2023-equipe1-Historico_diploma-node/microservice diplomahistorico/node_modules/@azure/cosmos/src/utils/diagnostics.ts:67:22)
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     at async addDignosticChild (/workspaces/tapr-2023-equipe1-Historico_diploma-node/microservice diplomahistorico/node_modules/@azure/cosmos/src/utils/diagnostics.ts:67:22)
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     at async ClientContext.delete (/workspaces/tapr-2023-equipe1-Historico_diploma-node/microservice diplomahistorico/node_modules/@azure/cosmos/src/ClientContext.ts:338:24)
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     at async /workspaces/tapr-2023-equipe1-Historico_diploma-node/microservice diplomahistorico/node_modules/@azure/cosmos/src/client/Item/Item.ts:211:24
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     at async withDiagnostics (/workspaces/tapr-2023-equipe1-Historico_diploma-node/microservice diplomahistorico/node_modules/@azure/cosmos/src/utils/diagnostics.ts:139:27)
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     at async DiplomaService.delete (/workspaces/tapr-2023-equipe1-Historico_diploma-node/microservice diplomahistorico/server/api/services/diploma.service.ts:82:13) {
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==   code: 404,
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==   body: {
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     code: 'NotFound',
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     message: 'Entity with the specified id does not exist in the system. More info: https://aka.ms/cosmosdb-tsg-not-found, {"Summary":{"DirectCalls":{"(404, 0)":1},"RegionsContacted":1},"name":"HandleDocumentRequest","id":"5b65dc2e-1c24-40e2-b262-68878d31864b","start time":"11:51:47:343","duration in milliseconds":2.7069,"data":{"Client Side Request Stats":{"Id":"AggregatedClientSideRequestStatistics","ContactedReplicas":[{"Count":1,"Uri":"rntbd://cdb-ms-prod-brazilsouth1-fd6.documents.azure.com:14314/apps/da7ef5da-87ed-48f3-b118-57d6c185ac8f/services/06cd303e-0120-4719-9569-3f5a85403bdb/partitions/b3e63861-d9c1-479b-a77a-1e9ab405c3ac/replicas/133419690215073896p/"},{"Count":1,"Uri":"rntbd://cdb-ms-prod-brazilsouth1-fd6.documents.azure.com:14316/apps/da7ef5da-87ed-48f3-b118-57d6c185ac8f/services/06cd303e-0120-4719-9569-3f5a85403bdb/partitions/b3e63861-d9c1-479b-a77a-1e9ab405c3ac/replicas/133419690215073894s/"},{"Count":1,"Uri":"rntbd://cdb-ms-prod-brazilsouth1-fd6.documents.azure.com:14358/apps/da7ef5da-87ed-48f3-b118-57d6c185ac8f/services/06cd303e-0120-4719-9569-3f5a85403bdb/partitions/b3e63861-d9c1-479b-a77a-1e9ab405c3ac/replicas/133419690215073895s/"},{"Count":1,"Uri":"rntbd://cdb-ms-prod-brazilsouth1-fd6.documents.azure.com:14420/apps/da7ef5da-87ed-48f3-b118-57d6c185ac8f/services/06cd303e-0120-4719-9569-3f5a85403bdb/partitions/b3e63861-d9c1-479b-a77a-1e9ab405c3ac/replicas/133419690115385216s/"}],"RegionsContacted":["https://cosmoslueslenmachado-brazilsouth.sql.cosmos.azure.com/"],"FailedReplicas":[],"AddressResolutionStatistics":[],"StoreResponseStatistics":[{"ResponseTimeUTC":"2023-11-30T23:51:47.3457403Z","ResourceType":"Document","OperationType":"Delete","LocationEndpoint":"https://cosmoslueslenmachado-brazilsouth.sql.cosmos.azure.com/","StoreResult":{"ActivityId":"e2a8755e-d006-4557-882a-18d76ca3d96b","StatusCode":"NotFound","SubStatusCode":"Unknown","LSN":56,"PartitionKeyRangeId":"0","GlobalCommittedLSN":56,"ItemLSN":-1,"UsingLocalLSN":false,"QuorumAckedLSN":56,"SessionToken":"-1#56","CurrentWriteQuorum":3,"CurrentReplicaSetSize":4,"NumberOfReadRegions":0,"IsValid":true,"StorePhysicalAddress":"rntbd://cdb-ms-prod-brazilsouth1-fd6.documents.azure.com:14314/apps/da7ef5da-87ed-48f3-b118-57d6c185ac8f/services/06cd303e-0120-4719-9569-3f5a85403bdb/partitions/b3e63861-d9c1-479b-a77a-1e9ab405c3ac/replicas/133419690215073896p/","RequestCharge":1.24,"RetryAfterInMs":null,"BELatencyInMs":"1.271","transportRequestTimeline":{"requestTimeline":[{"event": "Created", "startTimeUtc": "2023-11-30T23:51:47.3435807Z", "durationInMs": 0.0013},{"event": "ChannelAcquisitionStarted", "startTimeUtc": "2023-11-30T23:51:47.3435820Z", "durationInMs": 0.0013},{"event": "Pipelined", "startTimeUtc": "2023-11-30T23:51:47.3435833Z", "durationInMs": 0.0749},{"event": "Transit Time", "startTimeUtc": "2023-11-30T23:51:47.3436582Z", "durationInMs": 2.0244},{"event": "Received", "startTimeUtc": "2023-11-30T23:51:47.3456826Z", "durationInMs": 0.0535},{"event": "Completed", "startTimeUtc": "2023-11-30T23:51:47.3457361Z", "durationInMs": 0}],"serviceEndpointStats":{"inflightRequests":1,"openConnections":1},"connectionStats":{"waitforConnectionInit":"False","callsPendingReceive":0,"lastSendAttempt":"2023-11-30T23:51:47.2256164Z","lastSend":"2023-11-30T23:51:47.2256987Z","lastReceive":"2023-11-30T23:51:47.2276799Z"},"requestSizeInBytes":2237,"responseMetadataSizeInBytes":259,"responseBodySizeInBytes":87},"TransportException":null}}]}}}, Windows/10.0.17763 cosmos-netstandard-sdk/3.18.0'
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==   },
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==   headers: {
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     'content-length': '3765',
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     date: 'Thu, 30 Nov 2023 23:51:46 GMT',
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     'content-type': 'application/json',
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     server: 'Compute',
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     'x-ms-gatewayversion': '2.0.0',
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     'x-ms-activity-id': 'e2a8755e-d006-4557-882a-18d76ca3d96b',
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     'x-ms-last-state-change-utc': 'Wed, 25 Oct 2023 08:29:24.233 GMT',
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     'x-ms-schemaversion': '1.16',
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     lsn: '56',
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     'x-ms-request-charge': '1.24',
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     'x-ms-quorum-acked-lsn': '56',
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     'x-ms-current-write-quorum': '3',
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     'x-ms-current-replica-set-size': '4',
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     'x-ms-documentdb-partitionkeyrangeid': '0',
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     'x-ms-xp-role': '1',
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     'x-ms-global-committed-lsn': '56',
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     'x-ms-number-of-read-regions': '0',
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     'x-ms-transport-request-id': '4',
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     'x-ms-cosmos-llsn': '56',
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     'x-ms-cosmos-quorum-acked-llsn': '56',
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     'x-ms-session-token': '0:-1#56',
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     'x-ms-request-duration-ms': '1.271',
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     'x-ms-serviceversion': 'version=2.14.0.0',
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     'x-ms-aad-applied-role-assignment': '00000000-0000-0000-0000-000000000004',
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     'x-ms-cosmos-physical-partition-id': '43223ca7-d12a-43a3-a137-e6e22d621c07',
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     'x-ms-throttle-retry-count': 0,
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     'x-ms-throttle-retry-wait-time-ms': 0
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==   },
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==   activityId: 'e2a8755e-d006-4557-882a-18d76ca3d96b',
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==   diagnostics: CosmosDiagnostics {
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     clientSideRequestStatistics: {
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==       requestStartTimeUTCInMs: 1701388307330,
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==       requestDurationInMs: 119,
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==       totalRequestPayloadLengthInBytes: 0,
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==       totalResponsePayloadLengthInBytes: 3765,
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==       locationEndpointsContacted: [Array],
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==       metadataDiagnostics: [Object],
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==       retryDiagnostics: [Object],
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==       gatewayStatistics: [Array]
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     },
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     diagnosticNode: undefined,
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     clientConfig: undefined
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==   }
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == }
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == [nodemon] app crashed - waiting for file changes before starting...
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == [nodemon] restarting due to changes...
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == [nodemon] starting `ts-node server/index.ts`
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == [nodemon] restarting due to changes...
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == [nodemon] starting `ts-node server/index.ts`
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == /workspaces/tapr-2023-equipe1-Historico_diploma-node/microservice diplomahistorico/node_modules/ts-node/src/index.ts:859
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     return new TSError(diagnosticText, diagnosticCodes, diagnostics);
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==            ^
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == TSError: ⨯ Unable to compile TypeScript:
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == server/api/services/diploma.service.ts(82,58): error TS1003: Identifier expected.
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == 
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     at createTSError (/workspaces/tapr-2023-equipe1-Historico_diploma-node/microservice diplomahistorico/node_modules/ts-node/src/index.ts:859:12)
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     at reportTSError (/workspaces/tapr-2023-equipe1-Historico_diploma-node/microservice diplomahistorico/node_modules/ts-node/src/index.ts:863:19)
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     at getOutput (/workspaces/tapr-2023-equipe1-Historico_diploma-node/microservice diplomahistorico/node_modules/ts-node/src/index.ts:1077:36)
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     at Object.compile (/workspaces/tapr-2023-equipe1-Historico_diploma-node/microservice diplomahistorico/node_modules/ts-node/src/index.ts:1433:41)
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     at Module.m._compile (/workspaces/tapr-2023-equipe1-Historico_diploma-node/microservice diplomahistorico/node_modules/ts-node/src/index.ts:1617:30)
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     at Module._extensions..js (node:internal/modules/cjs/loader:1295:10)
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     at Object.require.extensions.<computed> [as .ts] (/workspaces/tapr-2023-equipe1-Historico_diploma-node/microservice diplomahistorico/node_modules/ts-node/src/index.ts:1621:12)
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     at Module.load (node:internal/modules/cjs/loader:1091:32)
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     at Module.require (node:internal/modules/cjs/loader:1115:19) {
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==   diagnosticCodes: [ 1003 ]
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == }
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == [nodemon] app crashed - waiting for file changes before starting...
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == [nodemon] restarting due to changes...
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == [nodemon] starting `ts-node server/index.ts`
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == [1701388459775] INFO (tapr-2023-equipe1-diplomahistorico-javascript/15327 on codespaces-2a7442): up and running in development @: codespaces-2a7442 on port: 3000}
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == [nodemon] restarting due to changes...
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == [nodemon] starting `ts-node server/index.ts`
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == [1701388464507] INFO (tapr-2023-equipe1-diplomahistorico-javascript/15417 on codespaces-2a7442): up and running in development @: codespaces-2a7442 on port: 3000}
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == [nodemon] restarting due to changes...
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == [nodemon] starting `ts-node server/index.ts`
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == /workspaces/tapr-2023-equipe1-Historico_diploma-node/microservice diplomahistorico/node_modules/ts-node/src/index.ts:859
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     return new TSError(diagnosticText, diagnosticCodes, diagnostics);
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==            ^
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == TSError: ⨯ Unable to compile TypeScript:
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == server/api/services/diploma.service.ts(82,73): error TS2554: Expected 1-2 arguments, but got 3.
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == server/api/services/diploma.service.ts(82,81): error TS1003: Identifier expected.
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == 
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     at createTSError (/workspaces/tapr-2023-equipe1-Historico_diploma-node/microservice diplomahistorico/node_modules/ts-node/src/index.ts:859:12)
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     at reportTSError (/workspaces/tapr-2023-equipe1-Historico_diploma-node/microservice diplomahistorico/node_modules/ts-node/src/index.ts:863:19)
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     at getOutput (/workspaces/tapr-2023-equipe1-Historico_diploma-node/microservice diplomahistorico/node_modules/ts-node/src/index.ts:1077:36)
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     at Object.compile (/workspaces/tapr-2023-equipe1-Historico_diploma-node/microservice diplomahistorico/node_modules/ts-node/src/index.ts:1433:41)
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     at Module.m._compile (/workspaces/tapr-2023-equipe1-Historico_diploma-node/microservice diplomahistorico/node_modules/ts-node/src/index.ts:1617:30)
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     at Module._extensions..js (node:internal/modules/cjs/loader:1295:10)
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     at Object.require.extensions.<computed> [as .ts] (/workspaces/tapr-2023-equipe1-Historico_diploma-node/microservice diplomahistorico/node_modules/ts-node/src/index.ts:1621:12)
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     at Module.load (node:internal/modules/cjs/loader:1091:32)
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     at Module.require (node:internal/modules/cjs/loader:1115:19) {
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==   diagnosticCodes: [ 2554, 1003 ]
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == }
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == [nodemon] app crashed - waiting for file changes before starting...
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == [nodemon] restarting due to changes...
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == [nodemon] starting `ts-node server/index.ts`
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == [nodemon] restarting due to changes...
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == [nodemon] starting `ts-node server/index.ts`
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == /workspaces/tapr-2023-equipe1-Historico_diploma-node/microservice diplomahistorico/node_modules/ts-node/src/index.ts:859
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     return new TSError(diagnosticText, diagnosticCodes, diagnostics);
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==            ^
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == TSError: ⨯ Unable to compile TypeScript:
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == server/api/services/diploma.service.ts(82,73): error TS2554: Expected 1-2 arguments, but got 3.
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == 
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     at createTSError (/workspaces/tapr-2023-equipe1-Historico_diploma-node/microservice diplomahistorico/node_modules/ts-node/src/index.ts:859:12)
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     at reportTSError (/workspaces/tapr-2023-equipe1-Historico_diploma-node/microservice diplomahistorico/node_modules/ts-node/src/index.ts:863:19)
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     at getOutput (/workspaces/tapr-2023-equipe1-Historico_diploma-node/microservice diplomahistorico/node_modules/ts-node/src/index.ts:1077:36)
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     at Object.compile (/workspaces/tapr-2023-equipe1-Historico_diploma-node/microservice diplomahistorico/node_modules/ts-node/src/index.ts:1433:41)
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     at Module.m._compile (/workspaces/tapr-2023-equipe1-Historico_diploma-node/microservice diplomahistorico/node_modules/ts-node/src/index.ts:1617:30)
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     at Module._extensions..js (node:internal/modules/cjs/loader:1295:10)
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     at Object.require.extensions.<computed> [as .ts] (/workspaces/tapr-2023-equipe1-Historico_diploma-node/microservice diplomahistorico/node_modules/ts-node/src/index.ts:1621:12)
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     at Module.load (node:internal/modules/cjs/loader:1091:32)
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     at Module.require (node:internal/modules/cjs/loader:1115:19) {
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==   diagnosticCodes: [ 2554 ]
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == }
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == [nodemon] app crashed - waiting for file changes before starting...
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == [nodemon] restarting due to changes...
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == [nodemon] starting `ts-node server/index.ts`
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == [nodemon] restarting due to changes...
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == [nodemon] starting `ts-node server/index.ts`
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == /workspaces/tapr-2023-equipe1-Historico_diploma-node/microservice diplomahistorico/node_modules/ts-node/src/index.ts:859
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     return new TSError(diagnosticText, diagnosticCodes, diagnostics);
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==            ^
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == TSError: ⨯ Unable to compile TypeScript:
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == server/api/services/diploma.service.ts(82,68): error TS2554: Expected 1-2 arguments, but got 4.
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == 
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     at createTSError (/workspaces/tapr-2023-equipe1-Historico_diploma-node/microservice diplomahistorico/node_modules/ts-node/src/index.ts:859:12)
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     at reportTSError (/workspaces/tapr-2023-equipe1-Historico_diploma-node/microservice diplomahistorico/node_modules/ts-node/src/index.ts:863:19)
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     at getOutput (/workspaces/tapr-2023-equipe1-Historico_diploma-node/microservice diplomahistorico/node_modules/ts-node/src/index.ts:1077:36)
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     at Object.compile (/workspaces/tapr-2023-equipe1-Historico_diploma-node/microservice diplomahistorico/node_modules/ts-node/src/index.ts:1433:41)
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     at Module.m._compile (/workspaces/tapr-2023-equipe1-Historico_diploma-node/microservice diplomahistorico/node_modules/ts-node/src/index.ts:1617:30)
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     at Module._extensions..js (node:internal/modules/cjs/loader:1295:10)
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     at Object.require.extensions.<computed> [as .ts] (/workspaces/tapr-2023-equipe1-Historico_diploma-node/microservice diplomahistorico/node_modules/ts-node/src/index.ts:1621:12)
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     at Module.load (node:internal/modules/cjs/loader:1091:32)
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     at Module.require (node:internal/modules/cjs/loader:1115:19) {
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==   diagnosticCodes: [ 2554 ]
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == }
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == [nodemon] app crashed - waiting for file changes before starting...
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == [nodemon] restarting due to changes...
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == [nodemon] starting `ts-node server/index.ts`
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == [1701388498993] INFO (tapr-2023-equipe1-diplomahistorico-javascript/16120 on codespaces-2a7442): up and running in development @: codespaces-2a7442 on port: 3000}
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == 2023-12-01T00:00:52.308Z INFO [HTTPClient, HTTPClient] Sidecar Started
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == [nodemon] restarting due to changes...
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == [nodemon] starting `ts-node server/index.ts`
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == [nodemon] restarting due to changes...
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == [nodemon] starting `ts-node server/index.ts`
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == [1701388887345] INFO (tapr-2023-equipe1-diplomahistorico-javascript/20435 on codespaces-2a7442): up and running in development @: codespaces-2a7442 on port: 3000}
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == [nodemon] restarting due to changes...
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == [nodemon] starting `ts-node server/index.ts`
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == /workspaces/tapr-2023-equipe1-Historico_diploma-node/microservice diplomahistorico/node_modules/ts-node/src/index.ts:859
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     return new TSError(diagnosticText, diagnosticCodes, diagnostics);
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==            ^
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == TSError: ⨯ Unable to compile TypeScript:
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == server/api/services/diploma.service.ts(63,48): error TS1003: Identifier expected.
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == 
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     at createTSError (/workspaces/tapr-2023-equipe1-Historico_diploma-node/microservice diplomahistorico/node_modules/ts-node/src/index.ts:859:12)
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     at reportTSError (/workspaces/tapr-2023-equipe1-Historico_diploma-node/microservice diplomahistorico/node_modules/ts-node/src/index.ts:863:19)
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     at getOutput (/workspaces/tapr-2023-equipe1-Historico_diploma-node/microservice diplomahistorico/node_modules/ts-node/src/index.ts:1077:36)
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     at Object.compile (/workspaces/tapr-2023-equipe1-Historico_diploma-node/microservice diplomahistorico/node_modules/ts-node/src/index.ts:1433:41)
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     at Module.m._compile (/workspaces/tapr-2023-equipe1-Historico_diploma-node/microservice diplomahistorico/node_modules/ts-node/src/index.ts:1617:30)
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     at Module._extensions..js (node:internal/modules/cjs/loader:1295:10)
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     at Object.require.extensions.<computed> [as .ts] (/workspaces/tapr-2023-equipe1-Historico_diploma-node/microservice diplomahistorico/node_modules/ts-node/src/index.ts:1621:12)
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     at Module.load (node:internal/modules/cjs/loader:1091:32)
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     at Module.require (node:internal/modules/cjs/loader:1115:19) {
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==   diagnosticCodes: [ 1003 ]
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == }
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == [nodemon] app crashed - waiting for file changes before starting...
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == [nodemon] restarting due to changes...
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == [nodemon] starting `ts-node server/index.ts`
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == /workspaces/tapr-2023-equipe1-Historico_diploma-node/microservice diplomahistorico/node_modules/ts-node/src/index.ts:859
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     return new TSError(diagnosticText, diagnosticCodes, diagnostics);
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==            ^
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == TSError: ⨯ Unable to compile TypeScript:
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == server/api/services/diploma.service.ts(64,9): error TS2304: Cannot find name 'd'.
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == 
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     at createTSError (/workspaces/tapr-2023-equipe1-Historico_diploma-node/microservice diplomahistorico/node_modules/ts-node/src/index.ts:859:12)
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     at reportTSError (/workspaces/tapr-2023-equipe1-Historico_diploma-node/microservice diplomahistorico/node_modules/ts-node/src/index.ts:863:19)
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     at getOutput (/workspaces/tapr-2023-equipe1-Historico_diploma-node/microservice diplomahistorico/node_modules/ts-node/src/index.ts:1077:36)
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     at Object.compile (/workspaces/tapr-2023-equipe1-Historico_diploma-node/microservice diplomahistorico/node_modules/ts-node/src/index.ts:1433:41)
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     at Module.m._compile (/workspaces/tapr-2023-equipe1-Historico_diploma-node/microservice diplomahistorico/node_modules/ts-node/src/index.ts:1617:30)
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     at Module._extensions..js (node:internal/modules/cjs/loader:1295:10)
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     at Object.require.extensions.<computed> [as .ts] (/workspaces/tapr-2023-equipe1-Historico_diploma-node/microservice diplomahistorico/node_modules/ts-node/src/index.ts:1621:12)
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     at Module.load (node:internal/modules/cjs/loader:1091:32)
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     at Module.require (node:internal/modules/cjs/loader:1115:19) {
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==   diagnosticCodes: [ 2304 ]
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == }
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == [nodemon] app crashed - waiting for file changes before starting...
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == [nodemon] restarting due to changes...
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == [nodemon] starting `ts-node server/index.ts`
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == /workspaces/tapr-2023-equipe1-Historico_diploma-node/microservice diplomahistorico/node_modules/ts-node/src/index.ts:859
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     return new TSError(diagnosticText, diagnosticCodes, diagnostics);
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==            ^
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == TSError: ⨯ Unable to compile TypeScript:
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == server/api/services/diploma.service.ts(64,31): error TS2304: Cannot find name 'd'.
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == 
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     at createTSError (/workspaces/tapr-2023-equipe1-Historico_diploma-node/microservice diplomahistorico/node_modules/ts-node/src/index.ts:859:12)
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     at reportTSError (/workspaces/tapr-2023-equipe1-Historico_diploma-node/microservice diplomahistorico/node_modules/ts-node/src/index.ts:863:19)
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     at getOutput (/workspaces/tapr-2023-equipe1-Historico_diploma-node/microservice diplomahistorico/node_modules/ts-node/src/index.ts:1077:36)
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     at Object.compile (/workspaces/tapr-2023-equipe1-Historico_diploma-node/microservice diplomahistorico/node_modules/ts-node/src/index.ts:1433:41)
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     at Module.m._compile (/workspaces/tapr-2023-equipe1-Historico_diploma-node/microservice diplomahistorico/node_modules/ts-node/src/index.ts:1617:30)
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     at Module._extensions..js (node:internal/modules/cjs/loader:1295:10)
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     at Object.require.extensions.<computed> [as .ts] (/workspaces/tapr-2023-equipe1-Historico_diploma-node/microservice diplomahistorico/node_modules/ts-node/src/index.ts:1621:12)
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     at Module.load (node:internal/modules/cjs/loader:1091:32)
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     at Module.require (node:internal/modules/cjs/loader:1115:19) {
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==   diagnosticCodes: [ 2304 ]
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == }
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == [nodemon] app crashed - waiting for file changes before starting...
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == [nodemon] restarting due to changes...
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == [nodemon] starting `ts-node server/index.ts`
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == [1701388910150] INFO (tapr-2023-equipe1-diplomahistorico-javascript/20900 on codespaces-2a7442): up and running in development @: codespaces-2a7442 on port: 3000}
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == 2023-12-01T00:02:02.368Z INFO [HTTPClient, HTTPClient] Sidecar Started
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == [nodemon] restarting due to changes...
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == [nodemon] starting `ts-node server/index.ts`
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == [1701388952461] INFO (tapr-2023-equipe1-diplomahistorico-javascript/21566 on codespaces-2a7442): up and running in development @: codespaces-2a7442 on port: 3000}
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == [nodemon] restarting due to changes...
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == [nodemon] starting `ts-node server/index.ts`
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == [1701389036249] INFO (tapr-2023-equipe1-diplomahistorico-javascript/22538 on codespaces-2a7442): up and running in development @: codespaces-2a7442 on port: 3000}
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == 2023-12-01T00:04:17.586Z INFO [HTTPClient, HTTPClient] Sidecar Started
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == [nodemon] restarting due to changes...
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == [nodemon] starting `ts-node server/index.ts`
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == [1701389226618] INFO (tapr-2023-equipe1-diplomahistorico-javascript/24750 on codespaces-2a7442): up and running in development @: codespaces-2a7442 on port: 3000}
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == [nodemon] restarting due to changes...
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == [nodemon] starting `ts-node server/index.ts`
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == [1701389236822] INFO (tapr-2023-equipe1-diplomahistorico-javascript/24900 on codespaces-2a7442): up and running in development @: codespaces-2a7442 on port: 3000}
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == [nodemon] restarting due to changes...
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == [nodemon] starting `ts-node server/index.ts`
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == /workspaces/tapr-2023-equipe1-Historico_diploma-node/microservice diplomahistorico/node_modules/ts-node/src/index.ts:859
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     return new TSError(diagnosticText, diagnosticCodes, diagnostics);
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==            ^
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == TSError: ⨯ Unable to compile TypeScript:
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == server/api/services/diploma.service.ts(62,40): error TS2304: Cannot find name 'd'.
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == 
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     at createTSError (/workspaces/tapr-2023-equipe1-Historico_diploma-node/microservice diplomahistorico/node_modules/ts-node/src/index.ts:859:12)
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     at reportTSError (/workspaces/tapr-2023-equipe1-Historico_diploma-node/microservice diplomahistorico/node_modules/ts-node/src/index.ts:863:19)
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     at getOutput (/workspaces/tapr-2023-equipe1-Historico_diploma-node/microservice diplomahistorico/node_modules/ts-node/src/index.ts:1077:36)
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     at Object.compile (/workspaces/tapr-2023-equipe1-Historico_diploma-node/microservice diplomahistorico/node_modules/ts-node/src/index.ts:1433:41)
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     at Module.m._compile (/workspaces/tapr-2023-equipe1-Historico_diploma-node/microservice diplomahistorico/node_modules/ts-node/src/index.ts:1617:30)
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     at Module._extensions..js (node:internal/modules/cjs/loader:1295:10)
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     at Object.require.extensions.<computed> [as .ts] (/workspaces/tapr-2023-equipe1-Historico_diploma-node/microservice diplomahistorico/node_modules/ts-node/src/index.ts:1621:12)
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     at Module.load (node:internal/modules/cjs/loader:1091:32)
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     at Module.require (node:internal/modules/cjs/loader:1115:19) {
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==   diagnosticCodes: [ 2304 ]
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == }
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == [nodemon] app crashed - waiting for file changes before starting...
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == [nodemon] restarting due to changes...
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == [nodemon] starting `ts-node server/index.ts`
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == [nodemon] restarting due to changes...
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == [nodemon] starting `ts-node server/index.ts`
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == [nodemon] restarting due to changes...
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == [nodemon] starting `ts-node server/index.ts`
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == [1701389254047] INFO (tapr-2023-equipe1-diplomahistorico-javascript/25308 on codespaces-2a7442): up and running in development @: codespaces-2a7442 on port: 3000}
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == [nodemon] restarting due to changes...
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == [nodemon] starting `ts-node server/index.ts`
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == [1701389264893] INFO (tapr-2023-equipe1-diplomahistorico-javascript/25510 on codespaces-2a7442): up and running in development @: codespaces-2a7442 on port: 3000}
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == [nodemon] restarting due to changes...
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == [nodemon] starting `ts-node server/index.ts`
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == [nodemon] restarting due to changes...
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == [nodemon] starting `ts-node server/index.ts`
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == [nodemon] restarting due to changes...
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == [nodemon] starting `ts-node server/index.ts`
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == [nodemon] restarting due to changes...
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == [nodemon] starting `ts-node server/index.ts`
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == [1701389275159] INFO (tapr-2023-equipe1-diplomahistorico-javascript/25749 on codespaces-2a7442): up and running in development @: codespaces-2a7442 on port: 3000}
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == [nodemon] restarting due to changes...
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == [nodemon] starting `ts-node server/index.ts`
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == [1701389286663] INFO (tapr-2023-equipe1-diplomahistorico-javascript/25973 on codespaces-2a7442): up and running in development @: codespaces-2a7442 on port: 3000}
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == [nodemon] restarting due to changes...
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == [nodemon] starting `ts-node server/index.ts`
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == [1701389291654] INFO (tapr-2023-equipe1-diplomahistorico-javascript/26086 on codespaces-2a7442): up and running in development @: codespaces-2a7442 on port: 3000}
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == [nodemon] restarting due to changes...
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == [nodemon] starting `ts-node server/index.ts`
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == [1701389296586] INFO (tapr-2023-equipe1-diplomahistorico-javascript/26179 on codespaces-2a7442): up and running in development @: codespaces-2a7442 on port: 3000}
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == [nodemon] restarting due to changes...
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == [nodemon] starting `ts-node server/index.ts`
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == [1701389300973] INFO (tapr-2023-equipe1-diplomahistorico-javascript/26267 on codespaces-2a7442): up and running in development @: codespaces-2a7442 on port: 3000}
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == [nodemon] restarting due to changes...
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == [nodemon] starting `ts-node server/index.ts`
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == [1701389307391] INFO (tapr-2023-equipe1-diplomahistorico-javascript/26391 on codespaces-2a7442): up and running in development @: codespaces-2a7442 on port: 3000}
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == [nodemon] restarting due to changes...
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == [nodemon] starting `ts-node server/index.ts`
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == [nodemon] restarting due to changes...
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == [nodemon] starting `ts-node server/index.ts`
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == [1701389345252] INFO (tapr-2023-equipe1-diplomahistorico-javascript/26932 on codespaces-2a7442): up and running in development @: codespaces-2a7442 on port: 3000}
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == [nodemon] restarting due to changes...
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == [nodemon] starting `ts-node server/index.ts`
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == [1701389349345] INFO (tapr-2023-equipe1-diplomahistorico-javascript/27007 on codespaces-2a7442): up and running in development @: codespaces-2a7442 on port: 3000}
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == [nodemon] restarting due to changes...
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == [nodemon] starting `ts-node server/index.ts`
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == [nodemon] restarting due to changes...
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == [nodemon] starting `ts-node server/index.ts`
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == [1701389356980] INFO (tapr-2023-equipe1-diplomahistorico-javascript/27170 on codespaces-2a7442): up and running in development @: codespaces-2a7442 on port: 3000}
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == 2023-12-01T00:09:24.309Z INFO [HTTPClient, HTTPClient] Sidecar Started
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == [nodemon] restarting due to changes...
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == [nodemon] starting `ts-node server/index.ts`
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == [nodemon] restarting due to changes...
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == [nodemon] starting `ts-node server/index.ts`
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == [1701389456037] INFO (tapr-2023-equipe1-diplomahistorico-javascript/28503 on codespaces-2a7442): up and running in development @: codespaces-2a7442 on port: 3000}
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == [nodemon] restarting due to changes...
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == [nodemon] starting `ts-node server/index.ts`
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == [1701389468953] INFO (tapr-2023-equipe1-diplomahistorico-javascript/28716 on codespaces-2a7442): up and running in development @: codespaces-2a7442 on port: 3000}
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == 2023-12-01T00:11:37.851Z INFO [HTTPClient, HTTPClient] Sidecar Started
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == [nodemon] restarting due to changes...
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == [nodemon] starting `ts-node server/index.ts`
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == [nodemon] restarting due to changes...
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == [nodemon] starting `ts-node server/index.ts`
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == [1701389534199] INFO (tapr-2023-equipe1-diplomahistorico-javascript/29614 on codespaces-2a7442): up and running in development @: codespaces-2a7442 on port: 3000}
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == [nodemon] restarting due to changes...
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == [nodemon] starting `ts-node server/index.ts`
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == [nodemon] restarting due to changes...
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == [nodemon] starting `ts-node server/index.ts`
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == [nodemon] restarting due to changes...
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == [nodemon] starting `ts-node server/index.ts`
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == [nodemon] restarting due to changes...
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == [nodemon] restarting due to changes...
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == [nodemon] starting `ts-node server/index.ts`
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == [nodemon] restarting due to changes...
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == [nodemon] starting `ts-node server/index.ts`
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == [nodemon] restarting due to changes...
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == [nodemon] starting `ts-node server/index.ts`
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == [nodemon] restarting due to changes...
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == [nodemon] starting `ts-node server/index.ts`
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == [1701389559099] INFO (tapr-2023-equipe1-diplomahistorico-javascript/30200 on codespaces-2a7442): up and running in development @: codespaces-2a7442 on port: 3000}
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == [nodemon] restarting due to changes...
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == [nodemon] starting `ts-node server/index.ts`
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == [1701389581441] INFO (tapr-2023-equipe1-diplomahistorico-javascript/30509 on codespaces-2a7442): up and running in development @: codespaces-2a7442 on port: 3000}
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == [nodemon] restarting due to changes...
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == [nodemon] starting `ts-node server/index.ts`
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == [nodemon] restarting due to changes...
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == [nodemon] starting `ts-node server/index.ts`
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == [nodemon] restarting due to changes...
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == [nodemon] starting `ts-node server/index.ts`
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == [nodemon] restarting due to changes...
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == [nodemon] starting `ts-node server/index.ts`
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == [nodemon] restarting due to changes...
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == [nodemon] starting `ts-node server/index.ts`
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == /workspaces/tapr-2023-equipe1-Historico_diploma-node/microservice diplomahistorico/node_modules/ts-node/src/index.ts:859
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     return new TSError(diagnosticText, diagnosticCodes, diagnostics);
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==            ^
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == TSError: ⨯ Unable to compile TypeScript:
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == server/api/services/diploma.service.ts(87,14): error TS1109: Expression expected.
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == 
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     at createTSError (/workspaces/tapr-2023-equipe1-Historico_diploma-node/microservice diplomahistorico/node_modules/ts-node/src/index.ts:859:12)
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     at reportTSError (/workspaces/tapr-2023-equipe1-Historico_diploma-node/microservice diplomahistorico/node_modules/ts-node/src/index.ts:863:19)
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     at getOutput (/workspaces/tapr-2023-equipe1-Historico_diploma-node/microservice diplomahistorico/node_modules/ts-node/src/index.ts:1077:36)
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     at Object.compile (/workspaces/tapr-2023-equipe1-Historico_diploma-node/microservice diplomahistorico/node_modules/ts-node/src/index.ts:1433:41)
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     at Module.m._compile (/workspaces/tapr-2023-equipe1-Historico_diploma-node/microservice diplomahistorico/node_modules/ts-node/src/index.ts:1617:30)
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     at Module._extensions..js (node:internal/modules/cjs/loader:1295:10)
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     at Object.require.extensions.<computed> [as .ts] (/workspaces/tapr-2023-equipe1-Historico_diploma-node/microservice diplomahistorico/node_modules/ts-node/src/index.ts:1621:12)
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     at Module.load (node:internal/modules/cjs/loader:1091:32)
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     at Module.require (node:internal/modules/cjs/loader:1115:19) {
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==   diagnosticCodes: [ 1109 ]
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == }
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == [nodemon] app crashed - waiting for file changes before starting...
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == [nodemon] restarting due to changes...
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == [nodemon] starting `ts-node server/index.ts`
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == [nodemon] restarting due to changes...
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == [nodemon] starting `ts-node server/index.ts`
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == /workspaces/tapr-2023-equipe1-Historico_diploma-node/microservice diplomahistorico/node_modules/ts-node/src/index.ts:859
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     return new TSError(diagnosticText, diagnosticCodes, diagnostics);
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==            ^
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == TSError: ⨯ Unable to compile TypeScript:
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == server/api/services/diploma.service.ts(87,14): error TS1109: Expression expected.
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == 
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     at createTSError (/workspaces/tapr-2023-equipe1-Historico_diploma-node/microservice diplomahistorico/node_modules/ts-node/src/index.ts:859:12)
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     at reportTSError (/workspaces/tapr-2023-equipe1-Historico_diploma-node/microservice diplomahistorico/node_modules/ts-node/src/index.ts:863:19)
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     at getOutput (/workspaces/tapr-2023-equipe1-Historico_diploma-node/microservice diplomahistorico/node_modules/ts-node/src/index.ts:1077:36)
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     at Object.compile (/workspaces/tapr-2023-equipe1-Historico_diploma-node/microservice diplomahistorico/node_modules/ts-node/src/index.ts:1433:41)
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     at Module.m._compile (/workspaces/tapr-2023-equipe1-Historico_diploma-node/microservice diplomahistorico/node_modules/ts-node/src/index.ts:1617:30)
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     at Module._extensions..js (node:internal/modules/cjs/loader:1295:10)
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     at Object.require.extensions.<computed> [as .ts] (/workspaces/tapr-2023-equipe1-Historico_diploma-node/microservice diplomahistorico/node_modules/ts-node/src/index.ts:1621:12)
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     at Module.load (node:internal/modules/cjs/loader:1091:32)
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     at Module.require (node:internal/modules/cjs/loader:1115:19) {
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==   diagnosticCodes: [ 1109 ]
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == }
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == [nodemon] app crashed - waiting for file changes before starting...
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == [nodemon] restarting due to changes...
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == [nodemon] starting `ts-node server/index.ts`
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == [nodemon] restarting due to changes...
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == [nodemon] starting `ts-node server/index.ts`
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == [nodemon] restarting due to changes...
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == [nodemon] starting `ts-node server/index.ts`
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == /workspaces/tapr-2023-equipe1-Historico_diploma-node/microservice diplomahistorico/node_modules/ts-node/src/index.ts:859
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     return new TSError(diagnosticText, diagnosticCodes, diagnostics);
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==            ^
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == TSError: ⨯ Unable to compile TypeScript:
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == server/api/services/diploma.service.ts(87,33): error TS2304: Cannot find name 'diplo'.
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == 
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     at createTSError (/workspaces/tapr-2023-equipe1-Historico_diploma-node/microservice diplomahistorico/node_modules/ts-node/src/index.ts:859:12)
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     at reportTSError (/workspaces/tapr-2023-equipe1-Historico_diploma-node/microservice diplomahistorico/node_modules/ts-node/src/index.ts:863:19)
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     at getOutput (/workspaces/tapr-2023-equipe1-Historico_diploma-node/microservice diplomahistorico/node_modules/ts-node/src/index.ts:1077:36)
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     at Object.compile (/workspaces/tapr-2023-equipe1-Historico_diploma-node/microservice diplomahistorico/node_modules/ts-node/src/index.ts:1433:41)
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     at Module.m._compile (/workspaces/tapr-2023-equipe1-Historico_diploma-node/microservice diplomahistorico/node_modules/ts-node/src/index.ts:1617:30)
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     at Module._extensions..js (node:internal/modules/cjs/loader:1295:10)
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     at Object.require.extensions.<computed> [as .ts] (/workspaces/tapr-2023-equipe1-Historico_diploma-node/microservice diplomahistorico/node_modules/ts-node/src/index.ts:1621:12)
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     at Module.load (node:internal/modules/cjs/loader:1091:32)
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     at Module.require (node:internal/modules/cjs/loader:1115:19) {
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==   diagnosticCodes: [ 2304 ]
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == }
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == [nodemon] app crashed - waiting for file changes before starting...
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == [nodemon] restarting due to changes...
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == [nodemon] starting `ts-node server/index.ts`
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == /workspaces/tapr-2023-equipe1-Historico_diploma-node/microservice diplomahistorico/node_modules/ts-node/src/index.ts:859
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     return new TSError(diagnosticText, diagnosticCodes, diagnostics);
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==            ^
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == TSError: ⨯ Unable to compile TypeScript:
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == server/api/services/diploma.service.ts(87,33): error TS2304: Cannot find name 'diploma'.
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == 
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     at createTSError (/workspaces/tapr-2023-equipe1-Historico_diploma-node/microservice diplomahistorico/node_modules/ts-node/src/index.ts:859:12)
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     at reportTSError (/workspaces/tapr-2023-equipe1-Historico_diploma-node/microservice diplomahistorico/node_modules/ts-node/src/index.ts:863:19)
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     at getOutput (/workspaces/tapr-2023-equipe1-Historico_diploma-node/microservice diplomahistorico/node_modules/ts-node/src/index.ts:1077:36)
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     at Object.compile (/workspaces/tapr-2023-equipe1-Historico_diploma-node/microservice diplomahistorico/node_modules/ts-node/src/index.ts:1433:41)
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     at Module.m._compile (/workspaces/tapr-2023-equipe1-Historico_diploma-node/microservice diplomahistorico/node_modules/ts-node/src/index.ts:1617:30)
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     at Module._extensions..js (node:internal/modules/cjs/loader:1295:10)
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     at Object.require.extensions.<computed> [as .ts] (/workspaces/tapr-2023-equipe1-Historico_diploma-node/microservice diplomahistorico/node_modules/ts-node/src/index.ts:1621:12)
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     at Module.load (node:internal/modules/cjs/loader:1091:32)
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     at Module.require (node:internal/modules/cjs/loader:1115:19) {
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==   diagnosticCodes: [ 2304 ]
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == }
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == [nodemon] app crashed - waiting for file changes before starting...
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == [nodemon] restarting due to changes...
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == [nodemon] starting `ts-node server/index.ts`
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == /workspaces/tapr-2023-equipe1-Historico_diploma-node/microservice diplomahistorico/node_modules/ts-node/src/index.ts:859
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     return new TSError(diagnosticText, diagnosticCodes, diagnostics);
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==            ^
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == TSError: ⨯ Unable to compile TypeScript:
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == server/api/services/diploma.service.ts(87,33): error TS2345: Argument of type 'string' is not assignable to parameter of type 'DiplomaHistorico'.
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == 
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     at createTSError (/workspaces/tapr-2023-equipe1-Historico_diploma-node/microservice diplomahistorico/node_modules/ts-node/src/index.ts:859:12)
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     at reportTSError (/workspaces/tapr-2023-equipe1-Historico_diploma-node/microservice diplomahistorico/node_modules/ts-node/src/index.ts:863:19)
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     at getOutput (/workspaces/tapr-2023-equipe1-Historico_diploma-node/microservice diplomahistorico/node_modules/ts-node/src/index.ts:1077:36)
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     at Object.compile (/workspaces/tapr-2023-equipe1-Historico_diploma-node/microservice diplomahistorico/node_modules/ts-node/src/index.ts:1433:41)
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     at Module.m._compile (/workspaces/tapr-2023-equipe1-Historico_diploma-node/microservice diplomahistorico/node_modules/ts-node/src/index.ts:1617:30)
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     at Module._extensions..js (node:internal/modules/cjs/loader:1295:10)
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     at Object.require.extensions.<computed> [as .ts] (/workspaces/tapr-2023-equipe1-Historico_diploma-node/microservice diplomahistorico/node_modules/ts-node/src/index.ts:1621:12)
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     at Module.load (node:internal/modules/cjs/loader:1091:32)
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==     at Module.require (node:internal/modules/cjs/loader:1115:19) {
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==   diagnosticCodes: [ 2345 ]
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == }
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == [nodemon] restarting due to changes...
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == [nodemon] starting `ts-node server/index.ts`
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == [nodemon] restarting due to changes...
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == [nodemon] starting `ts-node server/index.ts`
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == [1701389654336] INFO (tapr-2023-equipe1-diplomahistorico-javascript/31841 on codespaces-2a7442): up and running in development @: codespaces-2a7442 on port: 3000}
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == 2023-12-01T00:31:35.762Z INFO [HTTPClient, HTTPClient] Sidecar Started
+
+termination signal received: shutting down

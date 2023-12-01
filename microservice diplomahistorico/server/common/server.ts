@@ -16,7 +16,7 @@ export default class ExpressServer {
   constructor() {
     const root = path.normalize(__dirname + '/../..');
     app.use(bodyParser.json({ limit: process.env.REQUEST_LIMIT || '100kb',
-                              type: 'application/*+json' }));
+                              type: ['application/json','application/*+json'] }));
     app.use(
       bodyParser.urlencoded({
         extended: true,

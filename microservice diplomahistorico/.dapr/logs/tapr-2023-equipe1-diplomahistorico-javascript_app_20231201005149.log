@@ -1,0 +1,16 @@
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == 
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == > microservice diplomahistorico@1.0.0 dev
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == > nodemon server/index.ts | pino-pretty
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == 
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == [nodemon] 2.0.22
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == [nodemon] to restart at any time, enter `rs`
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == [nodemon] watching path(s): server/**/* .env
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == [nodemon] watching extensions: ts,js,json,yaml,yml
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == [nodemon] starting `ts-node server/index.ts`
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == [1701391913591] INFO (tapr-2023-equipe1-diplomahistorico-javascript/56735 on codespaces-2a7442): up and running in development @: codespaces-2a7442 on port: 3000}
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == [UnhandledPromiseRejection: This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). The promise rejected with the reason "undefined".] {
+== APP - tapr-2023-equipe1-diplomahistorico-javascript ==   code: 'ERR_UNHANDLED_REJECTION'
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == }
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == [nodemon] app crashed - waiting for file changes before starting...
+
+termination signal received: shutting down

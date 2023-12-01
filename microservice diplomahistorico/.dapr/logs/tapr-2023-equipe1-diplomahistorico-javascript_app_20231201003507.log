@@ -1,0 +1,14 @@
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == 
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == > microservice diplomahistorico@1.0.0 dev
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == > nodemon server/index.ts | pino-pretty
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == 
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == [nodemon] 2.0.22
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == [nodemon] to restart at any time, enter `rs`
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == [nodemon] watching path(s): server/**/* .env
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == [nodemon] watching extensions: ts,js,json,yaml,yml
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == [nodemon] starting `ts-node server/index.ts`
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == [1701390911185] INFO (tapr-2023-equipe1-diplomahistorico-javascript/45497 on codespaces-2a7442): up and running in development @: codespaces-2a7442 on port: 3000}
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == 2023-12-01T00:35:27.976Z INFO [HTTPClient, HTTPClient] Sidecar Started
+
+termination signal received: shutting down
+== APP - tapr-2023-equipe1-diplomahistorico-javascript == [nodemon] still waiting for 1 sub-process to finish...
